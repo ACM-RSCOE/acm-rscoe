@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+
+  
+    
 }
 
 :root{
@@ -37,10 +40,12 @@ header{
   width: 100%;
   transition: all 0.5s;
   z-index: 999;
+ 
 }
 header.sticky{
   color: rgb(59, 59, 59);
    background-color: rgba(255, 255, 255, 0.774);
+   
 }
 header.sticky a{
   color: rgb(59, 59, 59);
@@ -120,6 +125,7 @@ header a{
   align-items: center;
   flex-direction: column;
   gap: 2.5rem;
+  overflow-x:hidden;
   
 
 }
@@ -128,6 +134,7 @@ header a{
   color: white;
   font-size: 3.5rem;
  font-weight: 600;
+ overflow-x:hidden;
 }
 
 .footer-div{
@@ -199,6 +206,7 @@ ion-icon{
 .big-upcoming-div{
   padding: 3rem;
   background-color: rgb(126, 182, 255);
+  overflow-x:hidden;
 }
 
 .upcoming{
@@ -207,6 +215,7 @@ ion-icon{
   font-size: 2rem;
   padding: 2rem;
   font-weight: 500;
+  overflow-x:hidden;
  
 }
 .event-img-div{
@@ -215,6 +224,7 @@ ion-icon{
   background-color: #4158D0;
 background-image: linear-gradient(43deg, #4158D0 0%, #822a7c 46%, #996a1c 100%);
 transition: all 0.8s;
+overflow-x:hidden;
 }
 .event-img-div:hover{
   padding: 8rem;
@@ -225,6 +235,7 @@ box-shadow: 10px 10px 46px -7px rgba(148, 57, 156, 0.57);
 -webkit-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
 -moz-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
 transform: translateY(-1.5%);
+overflow-x:hidden;
 }
 .buttons{
   display: flex;
@@ -388,9 +399,12 @@ cursor: pointer;
     
   }
   .welcome-note{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 750;
     text-align: center;
+  }
+  .big-upcoming-div{
+    padding:3rem 0.5rem 3rem 0.5rem;
   }
   .upcoming-div{
     display: flex;
