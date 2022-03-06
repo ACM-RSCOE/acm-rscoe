@@ -18,7 +18,7 @@ const Footer = () => {
             <a target="_blank" href="https://www.instagram.com/acm.rscoe/"> <img classname="socialmedia" src='./Images/instagram-alt-logo-36.png'></img></a>
             <a target="_blank" href="https://bit.ly/acmrscoefacebook"> <img classname="socialmedia" src='./Images/facebook-circle-logo-36.png'></img></a>
             <a target="_blank" href="https://bit.ly/acmrscoetelegram">  <img classname="socialmedia" src='./Images/telegram-logo-36.png'></img></a>
-            <a target="_blank" href="https://bit.ly/acmrscoelinkedln"> <img classname="socialmedia" src='./Images/linkedin-square-logo-36.png'></img></a>
+            <a target="_blank" href="https://www.linkedin.com/in/acm-rscoe-student-chapter-386690233/"> <img classname="socialmedia" src='./Images/linkedin-square-logo-36.png'></img></a>
             <a target="_blank" href="https://twitter.com/AcmRscoe"><img classname="socialmedia" src='./Images/twitter-logo-36.png'></img></a>
             <a target="_blank" href="https://bit.ly/acmrscoeyoutube"><img classname="socialmedia" src='./Images/youtube-logo-36.png'></img></a>
             
