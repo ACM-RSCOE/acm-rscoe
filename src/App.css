@@ -399,15 +399,15 @@ cursor: pointer;
     flex-direction: column;
   }
   .event-img-div{
-    padding: 5rem;
-    border-radius: 2rem;
+    padding:  3rem;
+    border-radius: 1.5rem;
     background-color: #4158D0;
   background-image: linear-gradient(43deg, #4158D0 0%, #822a7c 46%, #996a1c 100%);
   transition: all 0.8s;
   }
   .event-img-div:hover{
-    padding: 5.5rem;
-    border-radius: 2.5rem;
+    padding: 4rem;
+    border-radius: 2rem;
     background-color: #4158D0;
   background-image: linear-gradient(43deg, #4158D0 0%, #822a7c 46%, #996a1c 100%);
   box-shadow: 10px 10px 46px -7px rgba(148, 57, 156, 0.57);
