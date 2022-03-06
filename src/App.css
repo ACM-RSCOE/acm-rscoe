@@ -343,6 +343,10 @@ cursor: pointer;
       display: block;
       cursor: pointer;
   }
+  header.sticky a{
+    color: rgb(255, 255, 255);
+     
+  }
   .menu-div{
       position: fixed;
       left: -100%;
