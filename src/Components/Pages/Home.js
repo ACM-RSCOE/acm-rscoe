@@ -1,7 +1,6 @@
 import React,{useEffect} from 'react'
 import Carousel from '../Carousel'
 import Latest from '../Latest'
-import Navbar from '../Navbar'
 import "../../App.css"
 import Aos from 'aos';
 import "aos/dist/aos.css"
@@ -12,11 +11,10 @@ const Home = () => {
    },[])
   return (
       <>
-    
-    
+   
     <Carousel/>
     <Latest />
-    
+   
     </>
   )
 }

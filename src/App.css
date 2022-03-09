@@ -301,11 +301,81 @@ cursor: pointer;
   font-family: var(--normal-font);
   padding: 4rem;
   font-size: 1.3rem;
+  
 }
 .event-info p{
   font-weight: 500;
 }
 
+.teamheader{
+  font-family: var(--normal-font);
+  font-weight: 600;
+  padding: 8rem;
+  color: white;
+  text-align: center;
+ 
+  font-size: 3rem;
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  animation: slideUp .8s ease forwards 0.2s;
+}
+
+.profile-photo{
+  height: 15rem;
+ 
+  padding: 1rem 1rem 0 1rem;
+  border-radius: 2rem;
+  
+}
+.profile-photo:hover{
+  height: 15rem;
+  transform: translateY(-2%);
+  transition: all 0.8s;
+  padding: 1rem 1rem 0 1rem;
+  border-radius: 2rem;
+ 
+  
+}
+.post{
+  font-size: 1.2rem;
+  font-weight: 530;
+  font-family: var(--normal-font);
+  color: rgb(140, 200, 255);
+}
+.name{
+  font-size: 1.5rem;
+  font-weight: 550;
+  color: white;
+  font-family: var(--normal-font);
+  
+}
+.profile-card-div{
+  text-align: center;
+  padding: 3rem;
+  display: grid;
+  gap: 1rem;
+  background-color:#26347c;
+  grid-template-columns: auto auto auto auto;
+  
+}
+
+.profile-card{
+  background-color: #26347c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photo-info-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  
+}
+.total-info{
+  padding: 1rem;
+}
 
 @keyframes slideUp {
   0% {
@@ -437,4 +507,15 @@ cursor: pointer;
     padding: 3rem;
   }
  
+
+  .profile-card-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .teamheader{
+    font-size: 2rem;
+    padding: 8rem 2rem 8rem 2rem;
+  }
 }
