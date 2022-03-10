@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "/webteam"
+  status = 200
