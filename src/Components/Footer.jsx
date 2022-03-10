@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
     </div>
     <div className='credit'>
-        <p style={{fontFamily:"Be Vietnam pro",fontSize:15,color:'white',textAlign:"center"}}>Developed with ❤️ by ACM RSCOE <Link to="/webteam" ><span onClick="window.scrollTo(0, 0)" style={{color:"skyblue",fontWeight:"bold"}}>Web Team</span></Link></p>
+        <p onClick="window.scrollTo(0, 0)" style={{fontFamily:"Be Vietnam pro",fontSize:15,color:'white',textAlign:"center"}}>Developed with ❤️ by ACM RSCOE <Link to="/webteam" ><span style={{color:"skyblue",fontWeight:"bold"}}>Web Team</span></Link></p>
     </div>
     </>
   )
