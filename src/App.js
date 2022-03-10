@@ -6,6 +6,7 @@ import Events from './Components/Pages/Events';
 import Footer from './Components/Footer';
 import Team from './Components/Pages/Team';
 import Navbar from './Components/Navbar';
+import WebTeam from './Components/Pages/WebTeam';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/' element={ <Home />}></Route>
         <Route path='/events' element={<Events />}></Route>
         <Route path='/team' element={<Team />}></Route>
+        <Route path='/webteam' element={<WebTeam />}></Route>
       </Routes>
       <Footer />
       </BrowserRouter>

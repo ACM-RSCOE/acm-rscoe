@@ -309,12 +309,12 @@ cursor: pointer;
 
 .teamheader{
   font-family: var(--normal-font);
-  font-weight: 600;
+  font-weight: 400;
   padding: 8rem;
   color: white;
   text-align: center;
  
-  font-size: 3rem;
+  font-size: 2.7rem;
   background: linear-gradient(180deg, #1173FF 0%, #21338b 100%);
   animation: slideUp .8s ease forwards 0.2s;
 }
@@ -378,6 +378,38 @@ cursor: pointer;
   padding: 1rem;
 }
 
+.profile-card-web{
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.teamheader-web p{
+  font-family: var(--normal-font);
+  font-weight: 500; 
+  font-size: 2rem;
+  padding-top: 8rem;
+  padding-bottom: 1rem;
+}
+.teamheader-web .p{
+  font-family: var(--normal-font);
+   font-size: 1.4rem;
+   font-weight: 200;
+   width: 35rem;
+   text-align: center;
+}
+.teamheader-web{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#f2f2f2; 
+  color: rgb(46, 46, 46);
+  
+}
 @keyframes slideUp {
   0% {
     transform: translateY(300px);
@@ -516,8 +548,17 @@ cursor: pointer;
     flex-direction: column;
   }
   .teamheader{
-    font-size: 2rem;
+    
     padding: 8rem 2rem 8rem 2rem;
+    background: rgb(7, 25, 128)
+  }
+  .teamheader-web p{
+    font-weight: 400; 
+  }
+  .teamheader-web .p{
+     font-size: 0.8rem;
+     font-weight: 200;
+     width: 25rem;
   }
 
   .name{
