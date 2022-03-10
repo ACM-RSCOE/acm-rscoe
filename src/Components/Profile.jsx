@@ -68,7 +68,7 @@ const Profile = () => {
 
 <div className='profile-card'  data-aos="zoom-out">
     <div className='photo-div'>
-<img className="profile-photo" src='./Images/team/vasudevsurwase.jpg'></img>
+<img className="profile-photo" src='./Images/team/vasudevsurwase.jpeg'></img>
 </div>
 <div className='total-info'>
 <div className="photo-info-div">
@@ -97,14 +97,14 @@ const Profile = () => {
 
 <div className='profile-card'  data-aos="zoom-out">
     <div className='photo-div'>
-<img className="profile-photo" src='./Images/team/vaishnavikumbhar.png'></img>
+<img className="profile-photo" src='./Images/team/vaishnavikumbhar.jpeg'></img>
 </div>
 <div className='total-info'>
 <div className="photo-info-div">
 <a href='https://www.linkedin.com/in/vaishnavi-kumbhar-9b3959213'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
 <p className='name'>Vaishnavi Kumbhar</p>
 </div>
-<p className='post'>Documentation Head</p>
+<p className='post'>Documentation Team</p>
 </div>
 </div>
 
@@ -136,18 +136,6 @@ const Profile = () => {
        </div>
        </div>
 
-       <div className='profile-card'  data-aos="zoom-out">
-    <div className='photo-div'>
-<img className="profile-photo" src='./Images/team/swastirai.jpg'></img>
-</div>
-<div className='total-info'>
-<div className="photo-info-div">
-<a href='https://www.linkedin.com/in/swasti-rai-7a697b212'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
-<p className='name'>Swasti Rai</p>
-</div>
-<p className='post'>Social Media Team</p>
-</div>
-</div>
 
 
 <div className='profile-card'  data-aos="zoom-out">
@@ -159,7 +147,7 @@ const Profile = () => {
 <a href='https://www.linkedin.com/in/aaryan-chipkar-667a95207'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
 <p className='name'>Aaryan Chipkar</p>
 </div>
-<p className='post'>Publicity Team</p>
+<p className='post'>Publicity Head</p>
 </div>
 </div>
 
@@ -187,7 +175,7 @@ const Profile = () => {
        <a href='https://www.linkedin.com/in/shashank-bhosagi-8b9432206'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
        <p className='name'>Shashank Bhosagi</p>
        </div>
-       <p className='post'>Web Team</p>
+       <p className='post'>Social Media Team</p>
        </div>
        </div>
         
@@ -200,7 +188,7 @@ const Profile = () => {
      <a href='https://www.linkedin.com/in/yash-more-187a08229' > <ion-icon name="logo-linkedin" style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
        <p className='name'>Yash More</p>
        </div>
-       <p className='post'>Web Team</p>
+       <p className='post'>Administration Team</p>
        </div>
        </div>
              
@@ -213,13 +201,27 @@ const Profile = () => {
        <a href='https://www.linkedin.com/in/aaryan-chaudhari-8036b5228'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
        <p className='name'>Aaryan Chaudhari</p>
        </div>
-       <p className='post'>Web Team</p>
+       <p className='post'>Administration Team</p>
        </div>
        </div>
 
+
+       <div className='profile-card'  data-aos="zoom-out">
+    <div className='photo-div'>
+<img className="profile-photo" src='./Images/team/swastirai.jpg'></img>
+</div>
+<div className='total-info'>
+<div className="photo-info-div">
+<a href='https://www.linkedin.com/in/swasti-rai-7a697b212'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
+<p className='name'>Swasti Rai</p>
+</div>
+<p className='post'>Support Team</p>
+</div>
+</div>
+
        <div className='profile-card'  data-aos="zoom-out">
            <div className='photo-div'>
-       <img className="profile-photo" src='./Images/team/upendramaurya.jpg'></img>
+       <img className="profile-photo" src='./Images/team/upendramaurya.jpeg'></img>
        </div>
        <div className='total-info'>
        <div className="photo-info-div">
@@ -239,7 +241,7 @@ const Profile = () => {
        <a href='https://www.linkedin.com/in/sakshi-bonde-11b30522b'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
        <p className='name'>Sakshi Bonde</p>
        </div>
-       <p className='post'>Content Team</p>
+       <p className='post'>Content Head</p>
        </div>
        </div>
 
