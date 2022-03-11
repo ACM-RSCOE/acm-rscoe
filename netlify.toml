@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/webteam"
+  to = "/index.html"
   status = 200
