@@ -35,7 +35,7 @@ header{
   top:0;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(36px);
-  background-color:rgba(0, 0, 0, 0.116);
+  background-color:rgba(0, 0, 0, 0.404);
   color: white;
   width: 100%;
   transition: all 0.5s;
@@ -180,11 +180,11 @@ ion-icon{
   display:flex;
   justify-content: center;
   align-items: center;
- 
+  padding: 2rem 0;
 }
 .big-upcoming-div{
-  padding: 3rem;
-  background-color: rgb(126, 182, 255);
+  padding: 2.5rem;
+  background-color: rgb(255, 253, 246);
   overflow-x:hidden;
 }
 
@@ -209,11 +209,30 @@ overflow-x:hidden;
   padding: 8rem;
   border-radius: 3rem;
   background-color: #4158D0;
-background-image: linear-gradient(43deg, #4158D0 0%, #822a7c 46%, #996a1c 100%);
+background-image: linear-gradient(43deg,#996a1c 0% , #822a7c 46%,  #4158D0 100%);
 box-shadow: 10px 10px 46px -7px rgba(148, 57, 156, 0.57);
 -webkit-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
 -moz-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
 transform: translateY(-1.5%);
+overflow-x:hidden;
+transition: all 0.5s;
+}
+#poetry-div{
+  padding: 8rem;
+  border-radius: 3rem;
+  background-color: #95b33e;
+background-image: linear-gradient(132deg, #95b33e 0%, #66a329 50%, #228846 100%);
+
+transition: all 0.8s;
+overflow-x:hidden;
+transition: all 0.5s;
+}
+#poetry-div:hover{
+  padding: 8rem;
+  border-radius: 3rem;
+  background-color: #04da04;
+background-image: linear-gradient(43deg, #0ea734 0%, #116e18 46%, #04490e 100%);
+transition: all 0.8s;
 overflow-x:hidden;
 }
 .buttons{
@@ -273,6 +292,34 @@ a{
   margin-top: 2rem;
   transition: all 0.7s;
   font-size: 1.2rem;
+}
+#poetry-btn{
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: #95b33e;
+  background-image: linear-gradient(132deg, #95b33e 0%, #66a329 50%, #228846 100%);
+  color: white;
+  font-family: var(--normal-font);
+  font-weight: 550;
+  border: none;
+  margin-top: 2rem;
+  transition: all 0.7s;
+  font-size: 1.2rem;
+}
+#poetry-btn:hover{
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg,  #0ea734 0%, #116e18 46%, #04490e 100%);
+  color: white;
+  font-family: var(--normal-font);
+  font-weight: 550;
+  border: none;
+  margin-top: 2rem;
+  box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+-webkit-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+-moz-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+transition: all 0.5s;
+transform: translateY(-4.5%);
+cursor: pointer;
 }
 .register:hover{
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
@@ -418,9 +465,9 @@ cursor: pointer;
   
 }
 .staff{
-  width: 20rem;
-  height: 20rem;
-  padding: 1rem;
+  width: 17rem;
+  height: 17rem;
+  padding: 1.5rem 1.2rem 0.7rem 1.2rem;
   border-radius: 2rem;
 }
 .name-staff{
@@ -430,6 +477,29 @@ cursor: pointer;
 .post-staff{
   color:wheat;
   font-size: 1.3rem;
+}
+.big-about-div{
+  
+  padding: 5rem 5rem 5rem 5rem;
+  background-color: rgb(224, 245, 255);
+}
+.about-acm-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--normal-font);
+  padding: 4rem;
+}
+.acm{
+  width: 15rem;
+}
+.acm-info-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 5rem;
 }
 @keyframes slideUp {
   0% {
@@ -519,11 +589,32 @@ cursor: pointer;
     align-items: center;
     flex-direction: column;
   }
+  #poetry-upcoming{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    
+  }
   .event-img-div{
     padding:  3rem;
     border-radius: 1.5rem;
     background-color: #4158D0;
   background-image: linear-gradient(43deg, #4158D0 0%, #822a7c 46%, #996a1c 100%);
+  transition: all 0.8s;
+  }
+  #poetry-div{
+    padding:  3rem;
+    border-radius: 1.5rem;
+    background-color: #00a808;
+  background-image: linear-gradient(43deg, #04490e 0%, #116e18 46%, #0ea734 100%);
+  transition: all 0.8s;
+  }
+  #poetry-div:hover{
+    padding:  3.5rem;
+    border-radius: 1.7rem;
+    background-color: #0fa71c;
+  background-image: linear-gradient(43deg, #04490e 0%, #116e18 46%, #0ea734 100%);
   transition: all 0.8s;
   }
   .event-img-div:hover{
@@ -595,7 +686,7 @@ cursor: pointer;
     flex-direction: column;
   }
   .staff{
-    width: 18rem;
+    width: 16rem;
   }
   .name-staff{
     color: white;
@@ -604,5 +695,28 @@ cursor: pointer;
   .post-staff{
     color:wheat;
     font-size: 1rem;
+  }
+  .acm-info-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 5rem;
+  }
+  #rscoe-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 2rem;
+    padding: 0 5rem;
+  }
+  .about-acm-div{
+    padding: 1rem;
+    text-align:initial;
+  }
+  .about-acm-div h2{
+    padding: 1rem 0;
   }
 }

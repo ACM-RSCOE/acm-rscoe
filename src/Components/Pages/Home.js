@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react'
 import Carousel from '../Carousel'
-import Latest from '../Latest'
+import Events from './Events';
 import "../../App.css"
 import Aos from 'aos';
 import "aos/dist/aos.css"
@@ -13,7 +13,7 @@ const Home = () => {
       <>
    
     <Carousel/>
-    <Latest />
+    <Events />
    
     </>
   )
