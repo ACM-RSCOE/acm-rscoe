@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import Profile from '../Profile'
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import Footer from '../Footer'
 
 const Team = () => {
   useEffect(() => [
@@ -30,7 +31,7 @@ const Team = () => {
     </div>
    </div>
     <Profile />
-    
+    <Footer />
     </>
   )
 }

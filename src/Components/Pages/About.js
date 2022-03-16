@@ -1,7 +1,9 @@
 import React from 'react'
+import Footer from '../Footer'
 
 const About = () => {
   return (
+      <>
     <div className='big-about-div'>
         <div className='about-acm-div'>
             <h2>About ACM</h2>
@@ -26,6 +28,9 @@ The ACM is an umbrella organization for academic and scholarly interests in comp
             </div>
         </div>
     </div>
+
+    <Footer />
+    </>
   )
 }
 

@@ -22,7 +22,7 @@ function App() {
         <Route path='/webteam' element={<WebTeam />}></Route>
         <Route path='/about' element={<About />}></Route>
       </Routes>
-      <Footer />
+     
       </BrowserRouter>
       
     </div>

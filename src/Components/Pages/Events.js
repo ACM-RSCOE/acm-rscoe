@@ -53,7 +53,7 @@ const Events = () => {
                </div>
            </div>
            </div>
- 
+ <Footer />
  </>
    )
 }
