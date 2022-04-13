@@ -1,7 +1,8 @@
 import React,{useEffect} from 'react'
 import Carousel from '../Carousel'
 import Events from './Events';
-import "../../App.css"
+import "../../App.css";
+import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import Footer from '../Footer';
@@ -15,7 +16,7 @@ const Home = () => {
    
     <Carousel/>
     <div className='big-upcoming-div' >
-           <p className='upcoming' data-aos="flip-up"><ion-icon style={{paddingTop:30}} name="time"></ion-icon>Upcoming Events</p>
+           <p className='upcoming' data-aos="flip-up"><ion-icon style={{paddingTop:30}} name="time"></ion-icon>Recent Events</p>
 
            <div className='upcoming-div' id='poetry-upcoming' data-aos="flip-up">
                
@@ -26,8 +27,8 @@ const Home = () => {
                        <b>Important Dates :</b><p>Last Date of Registration - 22/03/2022</p>
                        <p>Result Declaration - 27/03/2022</p>
                        <div className='buttons'>
-                       <a target="_blank" href="https://forms.gle/N8YCTp1SFTdSc6mR8"><button className='register' id='poetry-btn'>REGISTER</button></a>
-                       <a target="_blank" href="./Images/poetry.png"><button className='btninfo' id='poetry-btn'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>MORE INFO</button></a>
+                     {/*}  <a target="_blank" href="https://forms.gle/N8YCTp1SFTdSc6mR8"><button className='register' id='poetry-btn'>REGISTER</button></a> */}
+                      <a target="_blank" href="./Images/poetry.png"><button className='btninfo' id='poetry-btn'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>MORE INFO</button></a>
                        </div>
                        </div>
                        <div className='event-div'>
@@ -49,12 +50,13 @@ const Home = () => {
                    <b>Important Dates :</b><p>Last Date of Registration - 22/03/2022</p>
                    <p>Date of Competition - 26/03/2022</p>
                    <div className='buttons'>
-                   <a target="_blank" href="https://forms.gle/u2E6AruXbVU86h6CA"><button className='register'>REGISTER</button></a>
-                   <a target="_blank" href="./Images/logica.png"><button className='btninfo'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>MORE INFO</button></a>
-                   </div>
-               </div>
-           </div>
-           </div>
+                   <Link to="/summary"><button className='register'>Event Summary</button></Link>
+                  {/* <a target="_blank" href="./Images/logica.png"><button className='btninfo'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>MORE INFO</button></a> */}
+                    </div>
+                </div>
+            </div>
+   </div> 
+  
     <Footer />
     </>
   )

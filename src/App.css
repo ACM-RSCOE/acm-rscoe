@@ -163,7 +163,41 @@ ion-icon{
   background-color: rgb(15, 15, 34);
   padding: 0.5rem 0 2rem 0;
 }
-
+@media screen and (max-width:768px) {
+  .slide-img{
+    width: 5rem;
+    animation: slide 100s 0.5s infinite linear forwards;
+  -webkit-box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
+-moz-box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
+box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
+border-radius: 1rem;
+  }
+  .summary-div{
+    
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .slider-header{
+    text-align: start;
+  }
+  .sub-head{
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.5rem;
+  }
+  .sum{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .sum .pt{
+    padding-right:0 ;
+    font-size: 0.3rem;
+  }
+}
 .hamburger{
   display: none;
 }
@@ -174,8 +208,97 @@ ion-icon{
   background-color: rgb(96, 191, 255);
   margin: 0.3rem auto; 
 }
+.summary-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
 
+}
 
+.sub-head{
+  font-family: var(--normal-font);
+  font-size: 1.5rem;
+  font-weight: 550;
+  padding: 1rem 1rem 1rem 0;
+  color: #1993ff;
+}
+
+.sum{
+  display: flex;
+  
+  flex-direction: column;
+}
+
+.sum .pt{
+  font-family: var(--normal-font);
+  font-size: 1.1rem;
+  padding: 0.3rem 0.3rem 0.3rem 0;
+}
+
+.slide-img{
+  width: 35rem;
+  position: relative;
+  animation: slide 300s 0.5s infinite linear forwards;
+  -webkit-box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
+-moz-box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
+box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
+border-radius: 1rem;
+}
+.big-div{
+  padding-top: 5rem;
+  background: #141E30; 
+background: -webkit-linear-gradient(to right, #243B55, #141E30);
+background: linear-gradient(to right, #243B55, #141E30); 
+color: white;
+overflow-x:hidden ;
+}
+.slider-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 3rem;
+  background-image:url("../public//Images//logica/bg-slider.png") ;
+  background-size:cover;
+  background-repeat: repeat-x;
+}
+.slide-img{
+  animation: slide 300s 0.5s infinite linear forwards;
+  -webkit-box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
+-moz-box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
+box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
+border-radius: 1rem;
+}
+
+@keyframes slide{
+  0%{
+    transform: translateX(0%);
+  }
+  
+  25%{
+    transform: translateX(-1250%);
+  }
+  50%{
+    transform: translateX(-1500%);
+  }
+  75%{
+    transform: translateX(1250%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+
+  
+}
+
+.slider-header{
+  font-family: var(--normal-font);
+  font-size: 2rem;
+  text-align: center;
+  padding: 1.5rem;
+}
 .upcoming-div{
   display:flex;
   justify-content: center;

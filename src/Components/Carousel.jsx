@@ -9,7 +9,7 @@ const Carousel = () => {
   return (
     <div className='carousel-div'>
        <img className="carousel-logo" src='./Images/acmrscoelogo.png' alt='Logo'></img>
-        <p className='welcome-note' data-aos="zoom-in" >Welcome to <span style={{color:"rgb(61, 142, 255)"}}>ACM RSCOE</span> Student Chapter</p>
+        <p className='welcome-note' data-aos="zoom-in" ><span style={{color:"rgb(61, 142, 255)"}}>JSPM RSCOE ACM</span> Student Chapter</p>
     </div>
   )
 }

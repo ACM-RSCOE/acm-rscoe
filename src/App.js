@@ -8,6 +8,7 @@ import Team from './Components/Pages/Team';
 import Navbar from './Components/Navbar';
 import WebTeam from './Components/Pages/WebTeam';
 import About from './Components/Pages/About';
+import Summary from './Components/Summary';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/team' element={<Team />}></Route>
         <Route path='/webteam' element={<WebTeam />}></Route>
         <Route path='/about' element={<About />}></Route>
+        <Route path='/summary' element={<Summary />}></Route>
       </Routes>
      
       </BrowserRouter>
