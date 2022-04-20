@@ -7,36 +7,38 @@ const Summary = () => {
     <div className='big-div'>
 
         <p className='slider-header'>Glimpses of <span style={{color:"#1993ff"}}>Logica 2022</span></p>
-        <div className='slider-div'>
-        
-            <img className="slide-img" src='./Images/logica/sd1.png'></img>
-            <img className="slide-img" src='./Images/logica/sd2.png'></img>
-            <img className="slide-img" src='./Images/logica/sd3.png'></img>
-            <img className="slide-img" src='./Images/logica/sd4.png'></img>
-            <img className="slide-img" src='./Images/logica/sd4.png'></img>
-            <img className="slide-img" src='./Images/logica/final1.png'></img>
-            <img className="slide-img" src='./Images/logica/final2.png'></img>
-            <img className="slide-img" src='./Images/logica/final3.png'></img>
-            <img className="slide-img" src='./Images/logica/final4.png'></img>
-            <img className="slide-img" src='./Images/logica/final5.png'></img>
-            <img className="slide-img" src='./Images/logica/final6.png'></img>
-            <img className="slide-img" src='./Images/logica/sm1.png'></img>
-            <img className="slide-img" src='./Images/logica/sm2.png'></img>
-            <img className="slide-img" src='./Images/logica/sum.png'></img>
-            <img className="slide-img" src='./Images/logica/in1.png'></img>
-            <img className="slide-img" src='./Images/logica/in2.png'></img>
-            <img className="slide-img" src='./Images/logica/in3.png'></img>
-            <img className="slide-img" src='./Images/logica/in4.png'></img>
-            <img className="slide-img" src='./Images/logica/in5.png'></img>
-            <img className="slide-img" src='./Images/logica/in6.png'></img>
-            <img className="slide-img" src='./Images/logica/sd1.png'></img>
-            <img className="slide-img" src='./Images/logica/sd5.png'></img>
-            <img className="slide-img" src='./Images/logica/sd6.png'></img>
-            <img className="slide-img" src='./Images/logica/sd7.png'></img>
-            <img className="slide-img" src='./Images/logica/sd8.png'></img>
-            <img className="slide-img" src='./Images/logica/sd1.png'></img>
-          
+       
+        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay":2000,"draggable":true }'>
+        <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd1.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd2.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd3.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd4.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd4.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/final1.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/final2.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/final3.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/final4.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/final5.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/final6.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sm1.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sm2.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sum.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/in1.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/in2.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/in3.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/in4.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/in5.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/in6.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd1.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd5.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd6.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd7.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd8.png'></img>
+            <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd1.png'></img>
         </div>
+           
+          
+    
 
         <div className='slider-header'><box-icon name='chevrons-right' type="solid" color='#1993ff'></box-icon>Overall Summary</div>
 

@@ -163,14 +163,28 @@ ion-icon{
   background-color: rgb(15, 15, 34);
   padding: 0.5rem 0 2rem 0;
 }
+
+
+
+
+.carousel-cell{
+  height: 400px;
+  width: 55%;
+  border-radius: 1rem;
+  margin: 0 2rem;
+}
+.carousel-cell::before{
+  display: block;
+  content: '';
+}
 @media screen and (max-width:768px) {
-  .slide-img{
-    width: 5rem;
-    animation: slide 100s 0.5s infinite linear forwards;
-  -webkit-box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
--moz-box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
-box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
-border-radius: 1rem;
+
+  .carousel-cell{
+   
+    width: 100%;
+   
+    border-radius: 1rem;
+    margin: 0 1rem;
   }
   .summary-div{
     
@@ -237,15 +251,7 @@ border-radius: 1rem;
   padding: 0.3rem 0.3rem 0.3rem 0;
 }
 
-.slide-img{
-  width: 35rem;
-  position: relative;
-  animation: slide 300s 0.5s infinite linear forwards;
-  -webkit-box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
--moz-box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
-box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
-border-radius: 1rem;
-}
+
 .big-div{
   padding-top: 5rem;
   background: #141E30; 
@@ -272,26 +278,7 @@ box-shadow: 10px 10px 40px -14px rgb(0, 0, 0);
 border-radius: 1rem;
 }
 
-@keyframes slide{
-  0%{
-    transform: translateX(0%);
-  }
-  
-  25%{
-    transform: translateX(-1250%);
-  }
-  50%{
-    transform: translateX(-1500%);
-  }
-  75%{
-    transform: translateX(1250%);
-  }
-  100%{
-    transform: translateX(0%);
-  }
 
-  
-}
 
 .slider-header{
   font-family: var(--normal-font);
