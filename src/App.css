@@ -345,6 +345,25 @@ background-image: linear-gradient(43deg, #0ea734 0%, #116e18 46%, #04490e 100%);
 transition: all 0.8s;
 overflow-x:hidden;
 }
+
+#essay-div{
+  padding: 8rem;
+  border-radius: 3rem;
+  background-color: #00589f;
+background-image: linear-gradient(132deg, #00c3ff 0%, #0097ce 50%, #0e6ca7 100%);
+
+transition: all 0.8s;
+overflow-x:hidden;
+transition: all 0.5s;
+}
+#essay-div:hover{
+  padding: 8rem;
+  border-radius: 3rem;
+  background-color: #046bda;
+background-image: linear-gradient(43deg, #0e6ca7 0%, #0097ce 46%, #00c3ff 100%);
+transition: all 0.8s;
+overflow-x:hidden;
+}
 .buttons{
   display: flex;
   justify-content: space-around;
@@ -431,6 +450,39 @@ transition: all 0.5s;
 transform: translateY(-4.5%);
 cursor: pointer;
 }
+
+
+#essay-btn{
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: #063ae6;
+  background-image: linear-gradient(132deg, #00c3ff 0%, #0097ce 50%, #0e6ca7 100%);
+  color: white;
+  font-family: var(--normal-font);
+  font-weight: 550;
+  border: none;
+  margin-top: 2rem;
+  transition: all 0.7s;
+  font-size: 1.2rem;
+}
+#essay-btn:hover{
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #0e6ca7 0%, #0097ce 46%, #00c3ff 100%);
+  color: white;
+  font-family: var(--normal-font);
+  font-weight: 550;
+  border: none;
+  margin-top: 2rem;
+  box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+-webkit-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+-moz-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+transition: all 0.5s;
+transform: translateY(-4.5%);
+cursor: pointer;
+}
+
+
+
 .register:hover{
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   background-color: #4158D0;

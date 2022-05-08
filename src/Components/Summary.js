@@ -1,14 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Summary = () => {
+
   return (
       <>
     <div className='big-div'>
 
         <p className='slider-header'>Glimpses of <span style={{color:"#1993ff"}}>Logica 2022</span></p>
        
-        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay":2000,"draggable":true }'>
+        <div id='main-carousel' class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay":2000,"draggable":true }'>
         <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd1.png'></img>
             <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd2.png'></img>
             <img className="carousel-cell" alt='carousel-img' src='./Images/logica/sd3.png'></img>

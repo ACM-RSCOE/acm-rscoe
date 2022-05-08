@@ -35,6 +35,8 @@ function closeMenu(){
   Menudiv.classList.remove("active");
 }
 
+const c = document.getElementById("main-carousel");
+c.flickity();
 
 
 // If you want to start measuring performance in your app, pass a function
