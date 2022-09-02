@@ -882,3 +882,165 @@ cursor: pointer;
     padding: 1rem 0;
   }
 }
+                         /*//////////////////////////*/
+#overseas p{
+  font-size: 2rem;
+
+}
+#overseas{
+  padding: 5rem;
+  border-radius: 2rem;
+  background-color: #4158D0;
+background-image: linear-gradient(43deg, #6e358c 0%, #822a7c 46%, #410074 100%);
+transition: all 0.8s;
+overflow-x:hidden;
+}
+#overseas:hover{
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #591280 0%, #b90f75 46%, #6d016d 100%);
+  transition: all 0.8s;
+}
+
+#overseasbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: #4158D0;
+background-image: linear-gradient(43deg, #9e41d0 0%, #822a7c 46%, #410074 100%);
+  color: white;
+  font-family: var(--normal-font);
+  font-weight: 550;
+  border: none;
+  margin-top: 2rem;
+  transition: all 0.7s;
+  font-size: 1.2rem;
+}
+
+
+#overseasbtn:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #591280 0%, #b90f75 46%, #6d016d 100%);
+  color: white;
+  font-family: var(--normal-font);
+  font-weight: 550;
+  border: none;
+  margin-top: 2rem;
+  transition: all 0.7s;
+  font-size: 1.2rem;
+  box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+-webkit-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+-moz-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+transition: all 0.5s;
+transform: translateY(-4.5%);
+cursor: pointer;
+}
+
+#ecofriendlybtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: #ff5f01;
+  background-image: linear-gradient(62deg, #ff5f01 0%, #99730e 100%);  
+  color: white;
+  font-family: var(--normal-font);
+  font-weight: 550;
+  border: none;
+  margin-top: 2rem;
+  transition: all 0.7s;
+  font-size: 1.2rem;
+}
+#ecofriendlybtn:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: #ff5f01;
+  background-image: linear-gradient(62deg, #e48e2c 0%, #ff8400 100%);  
+  color: white;
+  font-family: var(--normal-font);
+  font-weight: 550;
+  border: none;
+  margin-top: 2rem;
+  transition: all 0.7s;
+  font-size: 1.2rem;
+  box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+-webkit-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+-moz-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+transition: all 0.5s;
+transform: translateY(-4.5%);
+cursor: pointer;
+}
+
+#ecofriendly p{
+  font-size: 2rem;
+}
+#ecofriendly{
+  padding: 5rem;
+  border-radius: 2rem;
+  background-color: #ff5f01;
+  background-image: linear-gradient(62deg, #ff5f01 0%, #99730e 100%);  
+transition: all 0.8s;
+overflow-x:hidden;
+}
+#ecofriendly:hover{
+  padding: 5rem;
+  border-radius: 2rem;
+  background-color: #ff5f01;
+  background-image: linear-gradient(62deg, #bc4501 0%, #ff9100 100%);  
+transition: all 0.8s;
+overflow-x:hidden;
+}
+
+#ar-div{
+  padding: 7rem;
+  border-radius: 2rem;
+  background-color: #ff63c1;
+  background-image: linear-gradient(62deg, #ff6cc9 0%, #8b3483 100%); 
+transition: all 0.8s;
+overflow-x:hidden;
+}
+#arbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: #ff63c1;
+  background-image: linear-gradient(62deg, #ff6cc9 0%, #8b3483 100%); 
+  color: white;
+  font-family: var(--normal-font);
+  font-weight: 550;
+  border: none;
+  margin-top: 2rem;
+  transition: all 0.7s;
+  font-size: 1.2rem;
+}
+#arbtn:hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  background-color: #ff01ee;
+  background-image: linear-gradient(62deg, #691864 0%, #fc65ff 100%);  
+  color: white;
+  font-family: var(--normal-font);
+  font-weight: 550;
+  border: none;
+  margin-top: 2rem;
+  transition: all 0.7s;
+  font-size: 1.2rem;
+  box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+-webkit-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+-moz-box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
+transition: all 0.5s;
+transform: translateY(-4.5%);
+cursor: pointer;
+}

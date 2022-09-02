@@ -29,7 +29,7 @@ const Footer = () => {
     </div>
     <div className='credit'>
     <Link to="/webteam" >
-        <p onClick="window.scrollTo(0, 0)" style={{fontFamily:"Be Vietnam pro",fontSize:15,color:'white',textAlign:"center"}}>Developed with ❤️ by ACM RSCOE<span style={{color:"skyblue",fontWeight:"bold"}}>Web Team</span></p>
+        <p onClick="window.scrollTo(0, 0)" style={{fontFamily:"Be Vietnam pro",fontSize:15,color:'white',textAlign:"center"}}>Developed with ❤️ by ACM RSCOE <span style={{color:"skyblue",fontWeight:"bold"}}>Web Team</span></p>
         </Link>
     </div>
     </>

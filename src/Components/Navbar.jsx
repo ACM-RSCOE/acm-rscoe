@@ -7,8 +7,8 @@ const Navbar = () => {
     <div className='navbar-div'>
         
         <div className='logo-div'>
-   <img className='logo' src='./Images/acmrscoelogo.png' alt="our logo"></img>
-   <p className='onlyphone'>ACM RSCOE</p>
+  <Link to="/"> <img className='logo' src='./Images/acmrscoelogo.png' alt="our logo"></img></Link>
+  <Link to="/"> <p className='onlyphone'>ACM RSCOE</p></Link>
         </div>
         <div className='menu-div'>
             

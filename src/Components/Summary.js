@@ -91,12 +91,12 @@ const Summary = () => {
         </div>
         <div className='follow-div'>
             <p>Follow Us on:</p>
-            <a target="_blank" href="https://www.instagram.com/acm.rscoe/"><box-icon name='instagram' type='logo' color='#fe0369' ></box-icon></a>
-            <a target="_blank" href="https://bit.ly/acmrscoefacebook"> <box-icon name='facebook-circle' type='logo' color='#3e88fe' ></box-icon></a>
-            <a target="_blank" href="https://bit.ly/acmrscoetelegram"> <box-icon name='telegram' type='logo' color='#79c6ff' ></box-icon> </a>
-            <a target="_blank" href="https://www.linkedin.com/in/acm-rscoe-student-chapter-386690233/"><box-icon name='linkedin-square' type='logo' color='#5698ff' ></box-icon></a>
-            <a target="_blank" href="https://twitter.com/AcmRscoe"><box-icon name='twitter' type='logo' color='#0388fe' ></box-icon></a>
-            <a target="_blank" href="https://bit.ly/acmrscoeyoutube"><box-icon name='youtube' type='logo' color='#fe2003' ></box-icon></a>
+            <a target="_blank" rel='noreferrer' href="https://www.instagram.com/acm.rscoe/"><box-icon name='instagram' type='logo' color='#fe0369' ></box-icon></a>
+            <a target="_blank" rel='noreferrer' href="https://bit.ly/acmrscoefacebook"> <box-icon name='facebook-circle' type='logo' color='#3e88fe' ></box-icon></a>
+            <a target="_blank" rel='noreferrer' href="https://bit.ly/acmrscoetelegram"> <box-icon name='telegram' type='logo' color='#79c6ff' ></box-icon> </a>
+            <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/acm-rscoe-student-chapter-386690233/"><box-icon name='linkedin-square' type='logo' color='#5698ff' ></box-icon></a>
+            <a target="_blank" rel='noreferrer' href="https://twitter.com/AcmRscoe"><box-icon name='twitter' type='logo' color='#0388fe' ></box-icon></a>
+            <a target="_blank" rel='noreferrer' href="https://bit.ly/acmrscoeyoutube"><box-icon name='youtube' type='logo' color='#fe2003' ></box-icon></a>
             
         </div>
     </div>
