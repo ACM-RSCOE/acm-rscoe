@@ -17,7 +17,7 @@ const Home = () => {
    
     <Carousel/>
    
-  {/* <Latest /> */}
+  <Latest />
     <Footer />
     </>
   )
