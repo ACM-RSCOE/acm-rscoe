@@ -14,7 +14,7 @@ const Team = () => {
     <div className='teamheader'><p>The Team</p>
     <br/>
     <div className="photo">
-            <img className="group-photo" src="./images/team/20220915_163529.jpg" alt=""/>
+            <img className="group-photo" src="./Images/team/20220915_163529.jpg" alt=""/>
         </div>
         </div>
    

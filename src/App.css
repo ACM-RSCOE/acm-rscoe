@@ -626,6 +626,20 @@ cursor: pointer;
   color: rgb(46, 46, 46);
   
 }
+
+
+#willpower{
+  padding:  3rem;
+  border-radius: 1.5rem;
+}
+
+.will{
+  width: 16rem;
+  border-radius: 1.5rem;
+
+}
+
+
 .staff{
   width: 17rem;
   height: 17rem;
@@ -765,6 +779,8 @@ cursor: pointer;
   background-image: linear-gradient(43deg, #4158D0 0%, #822a7c 46%, #996a1c 100%);
   transition: all 0.8s;
   }
+
+
   #poetry-div{
     padding:  3rem;
     border-radius: 1.5rem;

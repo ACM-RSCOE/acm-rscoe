@@ -21,10 +21,10 @@ const Events = () => {
                    <div className='event-info'  data-aos="flip-up">
                        <b>About Event :</b><p style={{paddingBottom:16}}>Participants submitted the photo of their Ganpati Decoration<br /> clicked with "GPS Camera App" available on PLAY STORE.<br /> The submission was open for 3 days.</p>
                        <p>Timeline - 31st August to 2nd September</p>
-                       
+                       <p>Winner - Pavan Kulkarni</p>
                        <div className='buttons'>
                        
-                       <a target="_blank" href="./Images/ecofriendly.jpeg"><button className='btninfo' id='ecofriendlybtn'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>MORE INFO</button></a>
+                       <a target="_blank" href="./Images/decoration.jpeg"><button className='btninfo' id='ecofriendlybtn'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>WINNER'S DECORATION</button></a>
                        </div>
                    </div>
                    <div className='event-div'>
