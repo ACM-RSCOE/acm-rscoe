@@ -21,6 +21,7 @@ const Events = () => {
                    <div className='event-info'  data-aos="flip-up">
                        <b>About Event :</b><p style={{paddingBottom:16}}>Participants submitted the photo of their Ganpati Decoration<br /> clicked with "GPS Camera App" available on PLAY STORE.<br /> The submission was open for 3 days.</p>
                        <p>Timeline - 31st August to 2nd September</p>
+                       <br/>
                        <p>Winner - Pavan Kulkarni</p>
                        <div className='buttons'>
                        
@@ -95,7 +96,7 @@ const Events = () => {
                        <p>Mode - Online</p>
                        <p>Language - English</p>
                        <div className='buttons'>
-                      <a target="_blank" href="./Images/Essay.jpeg"><button className='btninfo' id='essay-btn'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>MORE INFO</button></a>
+                      <a target="_blank" href="./Images/essay.pdf"><button className='btninfo' id='essay-btn'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>Winner Team Essay</button></a>
                        </div>
                        </div>
                     
@@ -114,9 +115,11 @@ const Events = () => {
                        <b>About Event :</b><p style={{paddingBottom:5}}>Online Poetry Competition</p>
                        <b>Important Dates :</b><p>Last Date of Registration - 22/03/2022</p>
                        <p>Result Declaration - 27/03/2022</p>
+                       <br/>
+                       <p>Winner : Ganesh Masute</p>
                        <div className='buttons'>
                        {/* <a target="_blank" href="https://forms.gle/N8YCTp1SFTdSc6mR8"><button className='register' id='poetry-btn'>REGISTER</button></a> */}
-                       <a target="_blank" href="./Images/poetry.png"><button className='btninfo' id='poetry-btn'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>MORE INFO</button></a>
+                       <a target="_blank" href="./Images/poem.pdf"><button className='btninfo' id='poetry-btn'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>Winner's Poem</button></a>
                        </div>
                        </div>
                        <div className='event-div'>
