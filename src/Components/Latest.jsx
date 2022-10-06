@@ -39,7 +39,7 @@ const Latest = () => {
 
 
 
-                    <p style={{ padding: 20, fontSize: 25 }}><h3><b>• Postorder Travalsal: </b></h3>  we will now talk about postorder traversal, another method for moving through a tree data structure. One of the traversing methods used to visit a node in the tree is the postorder traversal. It adheres to the LRN principle (Left-right-node). To determine a tree's postfix expression, postorder traversal is used.<br />
+                    <p style={{ padding: 20, fontSize: 25 }}><h3><b>• Postorder Traversal: </b></h3>  we will now talk about postorder traversal, another method for moving through a tree data structure. One of the traversing methods used to visit a node in the tree is the postorder traversal. It adheres to the LRN principle (Left-right-node). To determine a tree's postfix expression, postorder traversal is used.<br />
                         <br /><h5><b>Algorithm : </b></h5>
                         Step 1: Traverse the left subtree, i.e., call postorder(left→subtree)<br />
                         Step 2: Traverse the right subtree, i.e., call postorder(right→subtree)<br />
