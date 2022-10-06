@@ -13,9 +13,78 @@ const Events = () => {
    return (
        <>
             <div className='big-upcoming-div' >
+
+
            <p className='upcoming' data-aos="flip-up"><ion-icon style={{paddingTop:30}} name="time"></ion-icon>Recent Events</p>
 
-           <div className='upcoming-div' data-aos="flip-up">
+           
+          
+<div className='upcoming-div' data-aos="flip-up">
+<div className='event-div'>
+        
+        <div id='willpower' data-aos="flip-up"><img src='./Images/willpower.jpg' className='will' alt='will harris' /></div>
+        </div>
+   
+        <div className='event-info'  data-aos="flip-up">
+            <b>About Event :</b><p style={{paddingBottom:16}}>Willpower ABCs of Success<br/>
+            <b>Speaker</b> : Mr. Will Harris(USA)</p>
+            <p><b>Date of Event</b> - 3rd October, Monday</p>
+            <p><b>Time</b> - 10:30AM to 12:30PM IST</p>
+            <p><b>Venue</b> - MBA Seminar Hall</p>
+            <div className='buttons'>
+            {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
+            <a target="_blank" href="./Images/willflyer.jpeg"><button className='btninfo' id='overseasbtn'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>MORE INFO</button></a>
+            </div>
+        </div>
+
+        
+    </div>
+
+<div className='upcoming-div' id='reverse' data-aos="flip-up">
+
+   
+        <div className='event-info'  data-aos="flip-up">
+        <b>About Event :</b><p style={{paddingBottom:16}}>Session on Blockchain Technology<br/>
+            <b>Speakers</b> : <br/>Shrushti Patil<br></br>
+            Prakash Koli</p>
+            <p><b>Date of Event</b> - 3rd October, Monday</p>
+            <p><b>Time</b> - 12:30PM IST</p>
+            <p><b>Venue</b> - MBA Seminar Hall</p>
+            <div className='buttons'>
+            {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
+            <a target="_blank" href="./Images/block.jpeg"><button className='btninfo' id='overseasbtn'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>MORE INFO</button></a>
+            </div>
+        </div>
+        <div className='event-div'>
+        
+        <div className='event-img-div' id='overseas' data-aos="flip-up"><p>SESSION ON <br/>BLOCKCHAIN <br/>TECHNOLOGY</p></div>
+        </div>
+        
+    </div>
+
+<div className='upcoming-div' data-aos="flip-up">
+<div className='event-div'>
+        
+<div id='willpower' data-aos="flip-up"><img src='./Images/vishwas.jpg' className='will' alt='Vishwas Badhe' /></div>
+        </div>
+   
+        <div className='event-info'  data-aos="flip-up">
+        <b>About Event :</b><p style={{paddingBottom:16}}>Opportunities for the Students<br/> in the industry on the <br/>basis of AI and ML<br/>
+            <b>Speaker</b> : Prof.Vishwas Badhe(IIT Bombay)</p>
+            <p><b>Date of Event</b> - 4th October, Tuesday</p>
+            <p><b>Time</b> - 11:45AM IST</p>
+            <p><b>Venue</b> - MBA Seminar Hall</p>
+            <div className='buttons'>
+            {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
+            <a target="_blank" href="./Images/iit.jpeg"><button className='btninfo' id='overseasbtn'><ion-icon style={{padding:0,fontSize:24}} name="arrow-forward-circle"></ion-icon>MORE INFO</button></a>
+            </div>
+        </div>
+
+        
+    </div>
+    
+
+           <div className='upcoming-div' id='reverse' data-aos="flip-up">
                
                
                    <div className='event-info'  data-aos="flip-up">
@@ -54,7 +123,7 @@ const Events = () => {
                </div>
                
 
-               <div className='upcoming-div' data-aos="flip-up">
+               <div className='upcoming-div' id='reverse' data-aos="flip-up">
                
               
                    
