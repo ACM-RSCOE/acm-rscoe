@@ -13,7 +13,7 @@ const Latest = () => {
                 <div className='concept'>
                     <h1 style={{ padding: 10 }}>Concept of the Week</h1>
                     <h1 style={{ padding: 20 }}><i> Tree Traversals (Inorder, Preorder, Postorder, Levelorder)</i></h1>
-                    <p style={{ padding: 20, fontSize: 25 }}><h3><b>• Inorder Travalsal: </b></h3>  The left subtree is visited first in this traversal method, followed by the root and then the right subtree. Always keep in mind that every node could be a subtree by itself.
+                    <p style={{ padding: 20, fontSize: 25 }}><h3><b>• Inorder Traversal: </b></h3>  The left subtree is visited first in this traversal method, followed by the root and then the right subtree. Always keep in mind that every node could be a subtree by itself.
                         The output will contain key values sorted in ascending order if a binary search tree is traversed in inorder.<br />
                         <br /><h5><b>Algorithm : </b></h5>
                         Step 1: Traverse the left subtree, i.e., call Inorder(left→subtree)<br />
