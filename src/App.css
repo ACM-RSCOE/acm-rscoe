@@ -639,6 +639,20 @@ cursor: pointer;
 
 }
 
+.childrensday-title{
+  padding-top: 40px;
+}
+
+.childrensday-carousel{
+  height: 280px;
+  width: 550px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  margin-left: 360px;
+}
+
 
 .staff{
   width: 17rem;
@@ -897,6 +911,16 @@ cursor: pointer;
   }
   .about-acm-div h2{
     padding: 1rem 0;
+  }
+
+  .childrensday-carousel{
+    height: 280px;
+    width: 290px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-left: 40px;
   }
 }
                          /*//////////////////////////*/
