@@ -11,3 +11,17 @@
     height: 700px;
     width: 400px;
 }
+
+@media screen and (max-width:768px){
+    .Carousel-container{
+   
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+    }
+    .Carousel{
+        height: 700px;
+        width: 350px;
+    }
+}
