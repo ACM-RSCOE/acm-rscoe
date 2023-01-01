@@ -62,8 +62,9 @@ const Latest = () => {
                     <h3>
                         Now, let's code it up:
                     </h3>
-                    <img src="./Images/COD/carbon.png" alt="code" width={700} display="block" />
-
+                    
+                    <img src="./Images/COD/carbon.png" className='algo' alt="code" width={700} display="block" />
+                   
                 </div>
             </div>
         </>

@@ -96,17 +96,17 @@ const Profile = () => {
 </div>
 
 <div className='profile-card'  data-aos="zoom-out">
-    <div className='photo-div'>
-<img className="profile-photo" src='./Images/team/vaishnavikumbhar.jpeg'></img>
-</div>
-<div className='total-info'>
-<div className="photo-info-div">
-<a href='https://www.linkedin.com/in/vaishnavi-kumbhar-9b3959213'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
-<p className='name'>Vaishnavi Kumbhar</p>
-</div>
-<p className='post'>Documentation Team</p>
-</div>
-</div>
+           <div className='photo-div'>
+       <img className="profile-photo" src='./Images/team/pratiksha.jpeg'></img>
+       </div>
+       <div className='total-info'>
+       <div className="photo-info-div">
+       <a href='https://www.linkedin.com/mwlite/in/pratiksha-patil-7b5385209'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
+       <p className='name'>Pratiksha Patil</p>
+       </div>
+       <p className='post'>Documentation Head</p>
+       </div>
+       </div>
 
 
 
@@ -178,6 +178,8 @@ const Profile = () => {
        <p className='post'>Social Media Team</p>
        </div>
        </div>
+
+       
         
        <div className='profile-card'  data-aos="zoom-out">
            <div className='photo-div'>
@@ -205,6 +207,22 @@ const Profile = () => {
        </div>
        </div>
 
+
+       <div className='profile-card'  data-aos="zoom-out">
+    <div className='photo-div'>
+<img className="profile-photo" src='./Images/team/vaishnavikumbhar.jpeg'></img>
+</div>
+<div className='total-info'>
+<div className="photo-info-div">
+<a href='https://www.linkedin.com/in/vaishnavi-kumbhar-9b3959213'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
+<p className='name'>Vaishnavi Kumbhar</p>
+</div>
+<p className='post'>Documentation Team</p>
+</div>
+</div>
+
+
+     
 
        <div className='profile-card'  data-aos="zoom-out">
     <div className='photo-div'>

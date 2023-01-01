@@ -61,6 +61,9 @@ header a{
   gap: 1rem;
   
 }
+.algo{
+  width: 85vw;
+}
 .welcome-note
 {
    text-transform: uppercase;
@@ -266,7 +269,7 @@ overflow-x:hidden ;
   align-items: center;
   gap: 5rem;
   padding: 3rem;
-  background-image:url("../public//Images//logica/bg-slider.png") ;
+  background-image:url("../public//Images//logica/bg-slider.jpg") ;
   background-size:cover;
   background-repeat: repeat-x;
 }
