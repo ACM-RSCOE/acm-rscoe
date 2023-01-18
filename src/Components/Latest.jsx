@@ -19,7 +19,7 @@ const Latest = () => {
                 <div className='concept'>
                     <h1 style={{ padding: 10 }}>Concept of the Week</h1>
                     <h1 style={{ padding: 20 }}><i> Graph Traversals (Breadth First Seacrch)</i></h1>
-                    <p style={{ padding: 20, fontSize: 25 }}><h3><b></b></h3>
+                    <p style={{ padding: 20, fontSize: 20 }}><h3><b></b></h3>
                         BFS is a traversing algorithm that requires you to begin traversing from a specific node (the source or starting node) and traverse the graph layer by layer, thus exploring the neighbour nodes (nodes which are directly connected to source node). Then you must proceed to the next-level neighbour nodes.
                         <br />
                         <br />

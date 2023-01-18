@@ -5,6 +5,17 @@ const About = () => {
   return (
       <>
     <div className='big-about-div'>
+    <div className='about-acm-div'>
+            <h2>Our <span style={{color:"#D79929"}} >Achievements</span></h2>
+            <div className="acm-info-img" id='award'>
+            <img src="./Images/award.png" className='acm'></img>
+                <p className='acm-info'>
+                  We are proud to announce that our JSPM RSCOE ACM Student Chapter received <strong>"Outstanding Emerging Chapter Award 2022"</strong> from all over India from Association of Computing Machinery (ACM India).
+                </p>
+                
+            </div>
+        </div>
+
         <div className='about-acm-div'>
             <h2>About ACM</h2>
             <div className="acm-info-img">

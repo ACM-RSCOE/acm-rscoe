@@ -13,13 +13,13 @@ const Events = () => {
   return (
     <>
       <div className="big-upcoming-div">
-        <p className="upcoming" data-aos="flip-up">
+        <p className="upcoming" data-aos="zoom-out">
           <ion-icon style={{ paddingTop: 30 }} name="time"></ion-icon>Recent
           Events
         </p>
 
-        <div className="upcoming-div" data-aos="flip-up">
-          <div className="event-info" data-aos="flip-up">
+        <div className="upcoming-div" data-aos="zoom-out">
+          <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
               On the occasion of Children's <br />
@@ -52,7 +52,7 @@ const Events = () => {
           </div>
 
           <div className="event-div">
-            <div id="willpower" data-aos="flip-up">
+            <div id="willpower" data-aos="zoom-out">
               <img
                 src="./Images/CD/Childrensday.jpg"
                 className="will"
@@ -62,9 +62,9 @@ const Events = () => {
           </div>
         </div>
 
-        <div className="upcoming-div" data-aos="flip-up">
+        <div className="upcoming-div" data-aos="zoom-out">
           <div className="event-div">
-            <div id="willpower" data-aos="flip-up">
+            <div id="willpower" data-aos="zoom-out">
               <img
                 src="./Images/willpower.jpg"
                 className="will"
@@ -73,7 +73,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className="event-info" data-aos="flip-up">
+          <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
               Willpower ABCs of Success
@@ -104,8 +104,8 @@ const Events = () => {
           </div>
         </div>
 
-        <div className="upcoming-div" id="reverse" data-aos="flip-up">
-          <div className="event-info" data-aos="flip-up">
+        <div className="upcoming-div" id="reverse" data-aos="zoom-out">
+          <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
               Session on Blockchain Technology
@@ -137,7 +137,7 @@ const Events = () => {
             </div>
           </div>
           <div className="event-div">
-            <div className="event-img-div" id="overseas" data-aos="flip-up">
+            <div className="event-img-div" id="overseas" data-aos="zoom-out">
               <p>
                 SESSION ON <br />
                 BLOCKCHAIN <br />
@@ -147,9 +147,9 @@ const Events = () => {
           </div>
         </div>
 
-        <div className="upcoming-div" data-aos="flip-up">
+        <div className="upcoming-div" data-aos="zoom-out">
           <div className="event-div">
-            <div id="willpower" data-aos="flip-up">
+            <div id="willpower" data-aos="zoom-out">
               <img
                 src="./Images/vishwas.jpg"
                 className="will"
@@ -158,7 +158,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className="event-info" data-aos="flip-up">
+          <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
               Opportunities for the Students
@@ -191,8 +191,8 @@ const Events = () => {
           </div>
         </div>
 
-        <div className="upcoming-div" id="reverse" data-aos="flip-up">
-          <div className="event-info" data-aos="flip-up">
+        <div className="upcoming-div" id="reverse" data-aos="zoom-out">
+          <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
               Participants submitted the photo of their Ganpati Decoration
@@ -215,7 +215,7 @@ const Events = () => {
             </div>
           </div>
           <div className="event-div">
-            <div className="event-img-div" id="ecofriendly" data-aos="flip-up">
+            <div className="event-img-div" id="ecofriendly" data-aos="zoom-out">
               <p>
                 Eco-friendly <br />
                 Ganapati Decoration <br /> Competition
@@ -224,9 +224,9 @@ const Events = () => {
           </div>
         </div>
 
-        <div className="upcoming-div" data-aos="flip-up">
+        <div className="upcoming-div" data-aos="zoom-out">
           <div className="event-div">
-            <div className="event-img-div" id="overseas" data-aos="flip-up">
+            <div className="event-img-div" id="overseas" data-aos="zoom-out">
               <p>
                 EDUCATION & CAREER
                 <br /> OPPURTUNITIES <br /> ABROAD
@@ -234,7 +234,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className="event-info" data-aos="flip-up">
+          <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
               From enhancing your global network to experiencing
@@ -258,8 +258,8 @@ const Events = () => {
           </div>
         </div>
 
-        <div className="upcoming-div" id="reverse" data-aos="flip-up">
-          <div className="event-info" data-aos="flip-up">
+        <div className="upcoming-div" id="reverse" data-aos="zoom-out">
+          <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 5 }}>
               A Webinar on latest technologies <br />
@@ -282,7 +282,7 @@ const Events = () => {
           </div>
 
           <div className="event-div">
-            <div className="event-img-div" id="ar-div" data-aos="flip-up">
+            <div className="event-img-div" id="ar-div" data-aos="zoom-out">
               <p style={{ fontSize: 50 }}>
                 AR/VR <br />
                 Webinar
@@ -291,14 +291,14 @@ const Events = () => {
           </div>
         </div>
 
-        <div className="upcoming-div" data-aos="flip-up">
+        <div className="upcoming-div" data-aos="zoom-out">
           <div className="event-div">
-            <div className="event-img-div" id="essay-div" data-aos="flip-up">
+            <div className="event-img-div" id="essay-div" data-aos="zoom-out">
               <p>ESSAY</p>
             </div>
           </div>
 
-          <div className="event-info" data-aos="flip-up">
+          <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 5 }}>Technical Essay Competition</p>
             <b>Important Dates :</b>
@@ -319,8 +319,8 @@ const Events = () => {
           </div>
         </div>
 
-        <div className="upcoming-div" id="poetry-upcoming" data-aos="flip-up">
-          <div className="event-info" data-aos="flip-up">
+        <div className="upcoming-div" id="poetry-upcoming" data-aos="zoom-out">
+          <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 5 }}>Online Poetry Competition</p>
             <b>Important Dates :</b>
@@ -342,19 +342,19 @@ const Events = () => {
             </div>
           </div>
           <div className="event-div">
-            <div className="event-img-div" id="poetry-div" data-aos="flip-up">
+            <div className="event-img-div" id="poetry-div" data-aos="zoom-out">
               <p>POETRY</p>
             </div>
           </div>
         </div>
 
-        <div className="upcoming-div" data-aos="flip-up">
+        <div className="upcoming-div" data-aos="zoom-out">
           <div className="event-div">
-            <div className="event-img-div" data-aos="flip-up">
+            <div className="event-img-div" data-aos="zoom-out">
               <p>LOGICA</p>
             </div>
           </div>
-          <div className="event-info" data-aos="flip-up">
+          <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
               Online National Level Project Competition
