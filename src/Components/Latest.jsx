@@ -4,11 +4,46 @@ import "aos/dist/aos.css"
 import { Link } from "react-router-dom"
 
 const Latest = () => {
+    const cardRowStyle ={
+        display: "flex",
+        justifyContent: "space-evenly",
+        alignItems: "center"
+    }
+    const cardStyle ={
+        display: "flex",
+        justifyContent: "space-evenly",
+        alignItems: "center",
+        width: "300px",
+        height: "400px",
+        margin: "20px",
+        flexDirection: "column",
+        borderTop: "0px",
+        borderRadius: "10px",
+        borderTopLeftRadius: "0px",
+        borderTopRightRadius: "0px",
+    }
     const mystyle = {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
-        alignIten: "center"
+        alignItems: "center"
+    }
+    const eventImg = {
+        alignSelf: "flex-start"
+    }
+    const registerBtn ={
+        width: "100px",
+        height: "60px",
+        cursor: "pointer",
+        background: "#085ecd",
+        outline: "none",
+        transition: "1s ease-in-out",
+        margin: "10px",
+        borderRadius: "5px",
+        color: "white",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
     }
     useEffect(() => {
         Aos.init({ duration: 2000 })
@@ -16,6 +51,15 @@ const Latest = () => {
     return (
         <>
             <div id='code-div' >
+                <div className="upcoming-events">
+                    <h1 style={{textAlign: "center"}}>Upcoming Events: </h1>
+                    <div style={cardRowStyle} className='event-card-row'>
+                        <div style={cardStyle} className='event-box'>
+                            <img style={eventImg} src="../images/UpcomingEvents/logica.png" alt="img" />
+                            <a target="_blank" href='https://logica2-registrations.vercel.app/' style={registerBtn}>Register</a>
+                        </div>
+                    </div> 
+                </div>
                 <div className='concept'>
                     <h1 style={{ padding: 10 }}>Concept of the Week</h1>
                     <h1 style={{ padding: 20 }}><i> Graph Traversals (Breadth First Seacrch)</i></h1>

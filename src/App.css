@@ -1217,4 +1217,7 @@ cursor: pointer;
     .modal-div{
        width: 20rem;
     }
+    .event-card-row{
+      flex-direction: column;
+    }
 }
