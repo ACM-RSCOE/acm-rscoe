@@ -2,10 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: smooth;
-
-  
-    
+ 
 }
 
 :root{
@@ -293,12 +290,17 @@ border-radius: 1rem;
   display:flex;
   justify-content: center;
   align-items: center;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
+  margin: 0.8rem 15rem;
+  border-radius: 1rem;
+  background-color: #f9fcff;
+  border: 0.1rem dashed grey;
 }
 .big-upcoming-div{
-  padding: 2.5rem;
+  padding: 2rem;
   background-color: rgb(255, 253, 246);
   overflow-x:hidden;
+  overflow-y: hidden;
 }
 
 .upcoming{
@@ -308,7 +310,7 @@ border-radius: 1rem;
   padding: 2rem;
   font-weight: 500;
   overflow-x:hidden;
- 
+  
 }
 .event-img-div{
   padding: 8rem;
@@ -778,6 +780,11 @@ cursor: pointer;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0.2rem;
+    border-radius: 1rem;
+    background-color: #f9fcff;
+    border: 0.1rem dashed grey;
   }
   #poetry-upcoming{
     display: flex;
@@ -1126,8 +1133,15 @@ padding: 2.5rem 1rem 2.5rem 1rem;
     .concept{
         padding: 1rem 0.1rem 1rem 0.1rem;
     }
-
-   
+  #ar-div{
+    padding: 4rem;
+  }
+  #overseas{
+    padding: 2rem;
+  }
+  #ecofriendly{
+    padding: 3rem;
+  }
   }
 
   
@@ -1271,6 +1285,19 @@ cursor: pointer;
       display: none;
     }
     .navbar-div{
-      height: 4rem;
+      height: 5rem;
+    }
+    #logicaa{
+      border: none;
+    }
+    #essay-div{
+      padding: 4rem;
     }
 }
+
+
+
+
+
+
+

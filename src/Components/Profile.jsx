@@ -75,7 +75,7 @@ const Profile = () => {
 <a href='https://www.linkedin.com/in/vasudev-surwase-645a2b213'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
 <p className='name'>Vasudev Surwase</p>
 </div>
-<p className='post'>Web Team Head</p>
+<p className='post'>Web Team</p>
 </div>
 </div>
 
