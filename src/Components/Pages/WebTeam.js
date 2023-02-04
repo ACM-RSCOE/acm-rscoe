@@ -15,18 +15,6 @@ const WebTeam = () => {
 </h6></div>
 <div className='profile-card-div'>
 <div className='profile-card-web'  data-aos="zoom-out">
-    <div className='photo-div'>
-<img className="profile-photo" src='./Images/team/vasudevsurwase.jpeg'></img>
-</div>
-<div className='total-info'>
-<div className="photo-info-div">
-<a href='https://www.linkedin.com/in/vasudev-surwase-645a2b213'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
-<p className='name'>Vasudev Surwase</p>
-</div>
-</div>
-</div>
-
-<div className='profile-card-web'  data-aos="zoom-out">
            <div className='photo-div'>
        <img className="profile-photo" src='./Images/team/abhishekdhanke.png'></img>
        </div>
@@ -39,6 +27,29 @@ const WebTeam = () => {
        </div>
 
        <div className='profile-card-web'  data-aos="zoom-out">
+    <div className='photo-div'>
+<img className="profile-photo" src='./Images/utkarsh.png'></img>
+</div>
+<div className='total-info'>
+<div className="photo-info-div">
+<a href='https://www.linkedin.com/in/utkarsh-jaulkar'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
+<p className='name'>Utkarsh Jaulkar</p>
+</div>
+</div>
+</div>
+
+<div className='profile-card-web'  data-aos="zoom-out">
+    <div className='photo-div'>
+<img className="profile-photo" src='./Images/team/vasudevsurwase.jpeg'></img>
+</div>
+<div className='total-info'>
+<div className="photo-info-div">
+<a href='https://www.linkedin.com/in/vasudev-surwase-645a2b213'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
+<p className='name'>Vasudev Surwase</p>
+</div>
+</div>
+</div>
+       <div className='profile-card-web'  data-aos="zoom-out">
            <div className='photo-div'>
        <img className="profile-photo" src='./Images/team/jayshinde.jpg'></img>
        </div>
@@ -50,7 +61,7 @@ const WebTeam = () => {
        </div>
        </div>
 
-       <div className='profile-card-web'  data-aos="zoom-out">
+       <div className='profile-card-web'>
            <div className='photo-div'>
        <img className="profile-photo" src='./Images/team/rushikeshsarode.jpg'></img>
        </div>

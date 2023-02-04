@@ -146,13 +146,13 @@ ion-icon{
 .follow-div p{
     font-family: "Be Vietnam pro",sans-serif;
     font-size: 1.3rem;
-    font-weight: 550;
+    
     padding: 1rem;
 }
 
 .contact{
   font-family: "Be Vietnam pro",sans-serif;
-  font-weight: 550;
+  
   font-size: 1.5rem;
   padding: 0.4rem;
   text-align: center;
@@ -222,7 +222,7 @@ ion-icon{
   display: block;
   width: 1.5rem;
   height: 0.2rem;
-  background-color: rgb(96, 191, 255);
+  background-color: #046bda;
   margin: 0.3rem auto; 
 }
 .summary-div{
@@ -237,7 +237,7 @@ ion-icon{
 .sub-head{
   font-family: var(--normal-font);
   font-size: 1.5rem;
-  font-weight: 550;
+  
   padding: 1rem 1rem 1rem 0;
   color: #1993ff;
 }
@@ -383,7 +383,6 @@ overflow-x:hidden;
   background-image: linear-gradient(43deg, #4158D0 0%, #822a7c 46%, #996a1c 100%);
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
   border: none;
   margin-top: 2rem;
   transition: all 0.7s;
@@ -398,7 +397,6 @@ overflow-x:hidden;
   background-image: linear-gradient(43deg, #4158D0 0%, #822a7c 46%, #996a1c 100%);
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
   border: none;
   margin-top: 2rem;
   transition: all 0.7s;
@@ -419,19 +417,20 @@ a{
   background-image: linear-gradient(43deg, #4158D0 0%, #822a7c 46%, #996a1c 100%);
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   border: none;
   margin-top: 2rem;
   transition: all 0.7s;
   font-size: 1.2rem;
 }
+
 #poetry-btn{
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   background-color: #95b33e;
   background-image: linear-gradient(132deg, #95b33e 0%, #66a329 50%, #228846 100%);
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   border: none;
   margin-top: 2rem;
   transition: all 0.7s;
@@ -443,7 +442,7 @@ a{
   background-image: linear-gradient(43deg,  #0ea734 0%, #116e18 46%, #04490e 100%);
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   border: none;
   margin-top: 2rem;
   box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
@@ -461,7 +460,7 @@ cursor: pointer;
   background-image: linear-gradient(132deg, #00c3ff 0%, #0097ce 50%, #0e6ca7 100%);
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   border: none;
   margin-top: 2rem;
   transition: all 0.7s;
@@ -473,7 +472,7 @@ cursor: pointer;
   background-image: linear-gradient(43deg, #0e6ca7 0%, #0097ce 46%, #00c3ff 100%);
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   border: none;
   margin-top: 2rem;
   box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
@@ -492,7 +491,7 @@ cursor: pointer;
   background-image: linear-gradient(43deg, #4158D0 0%, #822a7c 46%, #996a1c 100%);
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   border: none;
   margin-top: 2rem;
   box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
@@ -505,7 +504,7 @@ cursor: pointer;
 
 .event-img-div p{
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   font-size: 4rem;
   color: white;
 }
@@ -562,7 +561,7 @@ cursor: pointer;
 }
 .name{
   font-size: 1.5rem;
-  font-weight: 550;
+  
   color: #1D1D1F;
   font-family: var(--normal-font);
   
@@ -573,7 +572,7 @@ cursor: pointer;
   display: grid;
   gap: 1rem;
   background-color:#F2F2F2;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   
 }
 
@@ -641,7 +640,16 @@ cursor: pointer;
   border-radius: 1.5rem;
 
 }
-
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  padding: 2rem;
+}
+.graphics{
+  width: 20rem;
+}
 
 .staff{
   width: 17rem;
@@ -754,6 +762,9 @@ cursor: pointer;
   background-image: linear-gradient(43deg, #26347c 0%, #581c54 46%, #5f4112 100%);
     
   }
+  .onlyphone{
+    color: #046bda;
+  }
   .welcome-note{
     font-size: 2.5rem;
     font-weight: 750;
@@ -774,6 +785,9 @@ cursor: pointer;
     align-items: center;
     flex-direction: column-reverse;
     
+  }
+  .graphics{
+    display: none;
   }
   .event-img-div{
     padding:  3rem;
@@ -931,7 +945,7 @@ overflow-x:hidden;
 background-image: linear-gradient(43deg, #9e41d0 0%, #822a7c 46%, #410074 100%);
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   border: none;
   margin-top: 2rem;
   transition: all 0.7s;
@@ -948,7 +962,7 @@ background-image: linear-gradient(43deg, #9e41d0 0%, #822a7c 46%, #410074 100%);
   background-image: linear-gradient(43deg, #591280 0%, #b90f75 46%, #6d016d 100%);
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   border: none;
   margin-top: 2rem;
   transition: all 0.7s;
@@ -971,7 +985,7 @@ cursor: pointer;
   background-image: linear-gradient(62deg, #ff5f01 0%, #99730e 100%);  
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   border: none;
   margin-top: 2rem;
   transition: all 0.7s;
@@ -986,7 +1000,7 @@ cursor: pointer;
   background-image: linear-gradient(62deg, #e48e2c 0%, #ff8400 100%);  
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   border: none;
   margin-top: 2rem;
   transition: all 0.7s;
@@ -1037,7 +1051,7 @@ overflow-x:hidden;
   background-image: linear-gradient(62deg, #ff6cc9 0%, #8b3483 100%); 
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   border: none;
   margin-top: 2rem;
   transition: all 0.7s;
@@ -1052,7 +1066,7 @@ overflow-x:hidden;
   background-image: linear-gradient(62deg, #691864 0%, #fc65ff 100%);  
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
+  
   border: none;
   margin-top: 2rem;
   transition: all 0.7s;
@@ -1123,7 +1137,6 @@ padding: 2.5rem 1rem 2.5rem 1rem;
   background-image: linear-gradient(132deg, #3f8fff 0%, #2061ef 50%, #0A5ECD 100%);
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
   border: none;
   margin-top: 2rem;
   transition: all 0.7s;
@@ -1135,7 +1148,6 @@ padding: 2.5rem 1rem 2.5rem 1rem;
   background-image: linear-gradient(43deg, #0043d2 0%, #0043d2 46%, #0043d2 100%);
   color: white;
   font-family: var(--normal-font);
-  font-weight: 550;
   border: none;
   margin-top: 2rem;
   box-shadow: 10px 10px 46px -7px rgba(242,88,255,0.57);
@@ -1213,11 +1225,52 @@ cursor: pointer;
   justify-content: flex-end;
   align-items: center;
 }
+
+.upcoming-event-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+#logicaa{
+  border: 0.1rem dashed #0066ff;
+  border-radius: 1rem;
+}
+.info{
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+}
+
+.e-head{
+  font-family: "JetBrains Mono", sans-serif;
+  font-weight: 800;
+  font-size: 5rem;
+  background: linear-gradient(to right, rgb(0, 78, 213) 40%, #3c89ff 0%, #1565de 50%, #2B86C5 100%);
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: classy 4s linear infinite;
+}
+@keyframes classy {
+  to {
+    background-position: 200% center;
+  }
+}
 @media screen and (max-width:768px) {
     .modal-div{
        width: 20rem;
     }
     .event-card-row{
       flex-direction: column;
+    }
+    .logo{
+      display: none;
+    }
+    .navbar-div{
+      height: 4rem;
     }
 }
