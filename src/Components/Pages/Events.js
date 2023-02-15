@@ -8,7 +8,7 @@ import Footer from '../Footer'
 import { Link } from 'react-router-dom'
 const Events = () => {
   useEffect(() => {
-    Aos.init({ duration: 2000 })
+    Aos.init({ duration: 1000 })
   }, [])
   return (
     <>
