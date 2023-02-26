@@ -19,6 +19,47 @@ const Events = () => {
         </p>
 
         <div className="upcoming-div" data-aos="zoom-out">
+          <div className="event-div">
+            <div id="willpower" data-aos="zoom-out">
+              <img
+                className="will"
+                id="trinity"
+                src="./Images/pink-trinity-logo.png"
+                alt="hackathon"
+              ></img>
+            </div>
+          </div>
+
+          <div className="event-info" data-aos="zoom-out">
+            <b>About Event :</b>
+            <p style={{ paddingBottom: 16 }}>
+              TRINITY
+              <br />
+              <b></b> Learn to Design, Develop and Deploy!
+            </p>
+            <p>
+              <b>Date of Event</b> - 25th February 2023
+            </p>
+
+            <p>
+              <b>Venue</b> - Jspm's RSCOE PUNE Computer Department
+            </p>
+            <div className="buttons">
+              {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
+              <a target="_blank" href="https://trinity-register.vercel.app/">
+                <button className="btninfo" id="overseasbtn">
+                  <ion-icon
+                    style={{ padding: 0, fontSize: 24 }}
+                    name="arrow-forward-circle"
+                  ></ion-icon>
+                  MORE INFO
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div className="upcoming-div" data-aos="zoom-out">
           <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
