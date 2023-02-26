@@ -40,14 +40,14 @@ const Latest = () => {
                         <h1 className='e-head'>LOGICA</h1>
                         <p className='info'>A Project Competition where ideas get the Wings!</p>
                         <br></br>
-                        <p className='info'>Coming Soon...</p>
+                        <p className='info'>11th March 2023</p>
                         <a href='https://logica2-registrations.vercel.app/' target="_blank" rel='noreferrer'>
                        <button className="btninfo" id='join'>
                   <ion-icon
                     style={{ padding: 0, fontSize: 24 }}
                     name="arrow-forward-circle"
                   ></ion-icon>
-                 Pre-Register
+                 Register
                 </button>
                         </a>
                     </div>
