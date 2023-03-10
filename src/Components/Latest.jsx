@@ -24,7 +24,7 @@ const Latest = () => {
               A Project Competition where ideas get the Wings!
             </p>
             <br></br>
-            <p className="info">11th March 2023</p>
+            <p className="info">7th & 8th April 2023</p>
             <a
               href="https://logica2-registrations.vercel.app/"
               target="_blank"
