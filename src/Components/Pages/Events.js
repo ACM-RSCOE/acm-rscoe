@@ -46,7 +46,7 @@ const Events = () => {
             </p>
             <div className="buttons">
               {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
-              <a target="_blank" rel='noreferrer' href="https://trinity-register.vercel.app/">
+              <a target="_blank" rel='noreferrer' href="https://trinity-2023.vercel.app/">
                 <button className="btninfo" id="overseasbtn">
                   <ion-icon
                     style={{ padding: 0, fontSize: 24 }}
