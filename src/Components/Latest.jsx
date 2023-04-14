@@ -9,7 +9,7 @@ const Latest = () => {
   }, [])
   return (
     <>
-      <div className="upcoming-events" style={{ padding: '1.9rem' }}>
+      {/* <div className="upcoming-events" style={{ padding: '1.9rem' }}>
         <h1
           style={{ textAlign: 'center', padding: '1rem', fontFamily: 'Inter' }}
         >
@@ -45,7 +45,7 @@ const Latest = () => {
             alt="hackathon"
           ></img>
         </div>
-      </div>
+      </div> */}
 
       <div id="code-div">
         <div className="concept">
@@ -95,3 +95,5 @@ const Latest = () => {
 }
 
 export default Latest
+
+
