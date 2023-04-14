@@ -1,3 +1,22 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from 'react'
 import { useEffect } from 'react'
 
@@ -17,6 +36,46 @@ const Events = () => {
           <ion-icon style={{ paddingTop: 30 }} name="time"></ion-icon>Recent
           Events
         </p>
+
+        <div className="upcoming-div" id="reverse" data-aos="zoom-out">
+          <div className="event-info" data-aos="zoom-out">
+            <b>About Event :</b>
+            <p style={{ paddingBottom: 16 }}>
+              LOGICA
+              <br />
+              <b></b> A Project Competition where ideas get the Wings!
+            </p>
+            <p>
+              <b>Date of Event</b> - 7th-8th April 2023
+            </p>
+
+            <p>
+              <b>Venue</b> - Computer Dept. RSCOE
+            </p>
+            <div className="buttons">
+              {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
+              <a target="_blank" rel='noreferrer' href="./Images/logica.jpeg">
+                <button className="btninfo" id="overseasbtn">
+                  <ion-icon
+                    style={{ padding: 0, fontSize: 24 }}
+                    name="arrow-forward-circle"
+                  ></ion-icon>
+                  MORE INFO
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="event-div">
+            <div id="willpower" data-aos="zoom-out">
+            <img
+            className="will"
+            id="trinity"
+            src="./Images/UpcomingEvents/hackathon.png"
+            alt="hackathon"
+          ></img>
+            </div>
+          </div>
+        </div>
 
         <div className="upcoming-div" data-aos="zoom-out">
           <div className="event-div">
@@ -59,7 +118,7 @@ const Events = () => {
           </div>
         </div>
 
-        <div className="upcoming-div" data-aos="zoom-out">
+        <div className="upcoming-div" id="reverse" data-aos="zoom-out">
           <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
