@@ -27,7 +27,7 @@ const Events = () => {
               <img
                 className="will"
                 id="uipath"
-                src="./Images/uipath-logo.jpg"
+                src="./Images/UIpath.png"
                 alt="hackathon"
               ></img>
             </div>
