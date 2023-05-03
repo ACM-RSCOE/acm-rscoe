@@ -371,9 +371,7 @@ overflow-x:hidden;
 }
 .buttons{
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  
 }
 .btninfo{
   display: flex;

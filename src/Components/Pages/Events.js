@@ -1,22 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import React from 'react'
 import { useEffect } from 'react'
 
@@ -36,6 +17,54 @@ const Events = () => {
           <ion-icon style={{ paddingTop: 30 }} name="time"></ion-icon>Recent
           Events
         </p>
+
+        {/* ==================================================================================
+                              UI PATH EVENT
+        ================================================================================== */}
+        <div className="upcoming-div" data-aos="zoom-out">
+          <div className="event-div">
+            <div id="willpower" data-aos="zoom-out">
+              <img
+                className="will"
+                id="uipath"
+                src="./Images/uipath-logo.jpg"
+                alt="hackathon"
+              ></img>
+            </div>
+          </div>
+
+          <div className="event-info" data-aos="zoom-out">
+            <b>About Event :</b>
+            <p style={{ paddingBottom: 16 }}>
+              UI path hands-on training
+              <br />
+              <br />
+              Taught first year students about robotic process automation using UIpath.
+            </p>
+            <p>
+              <b>Date of Event</b> - 28th April 2023
+            </p>
+
+            <p>
+              <b>Venue</b> - FY Seminar hall RSCOE
+            </p>
+            <div className="buttons">
+              {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
+              <a target="_blank" rel='noreferrer' href="https://drive.google.com/drive/folders/1I4RkMFTJ4Ao0azt8spKUU8MRgZvRaXve">
+                <button className="btninfo" id="overseasbtn">
+                  <ion-icon
+                    style={{ padding: 0, fontSize: 24 }}
+                    name="arrow-forward-circle"
+                  ></ion-icon>
+                  MORE INFO
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
 
         <div className="upcoming-div" id="reverse" data-aos="zoom-out">
           <div className="event-info" data-aos="zoom-out">
@@ -67,12 +96,12 @@ const Events = () => {
           </div>
           <div className="event-div">
             <div id="willpower" data-aos="zoom-out">
-            <img
-            className="will"
-            id="trinity"
-            src="./Images/UpcomingEvents/hackathon.png"
-            alt="hackathon"
-          ></img>
+              <img
+                className="will"
+                id="trinity"
+                src="./Images/UpcomingEvents/hackathon.png"
+                alt="hackathon"
+              ></img>
             </div>
           </div>
         </div>
