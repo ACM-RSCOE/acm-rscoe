@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='footer-div'>
         <div className='address-div'>
             <p className='contact'><ion-icon name="location"></ion-icon>Contact Us</p>
-            <p className='address'>JSPM's Rajarshi Shahu College of Engineering, Ashok Nagar, Tathawade, Pimpri-Chinchwad, Maharashtra 411033</p>
+            <p className='address'>JSPM's Rajarshi Shahu College of Engineering, Ashok Nagar, Tathawade, Pimpri-Chinchwad, Maharashtra - 411033</p>
             <div style={{fontFamily:"Inter",fontSize:22,padding:10,textAlign:"center"}}><ion-icon name="mail"></ion-icon>Email:</div> <p className='mailcontact'>   rscoeacmchapter@gmail.com</p>
 
         </div>
