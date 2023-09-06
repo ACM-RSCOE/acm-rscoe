@@ -15,12 +15,12 @@ const Profile = () => {
      
 <div className='profile-card' data-aos="zoom-out">
     <div className='photo-div'>
-<img className="profile-photo" src='./Images/team/shubhamasbe.jpeg'></img>
+<img className="profile-photo" src='./Images/team/shashankbhosagi.jpeg'></img>
 </div>
 <div className='total-info'>
 <div className="photo-info-div">
-<a href='https://www.linkedin.com/in/shubham-asbe-346153199'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:25,color:"cornflowerblue"}} ></ion-icon></a>
-<p className='name'>Shubham Asbe</p>
+<a href='https://www.linkedin.com/in/shashank-bhosagi-8b9432206/'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:25,color:"cornflowerblue"}} ></ion-icon></a>
+<p className='name'>Shashank Bhosagi</p>
 </div>
 <p className='post'>Chair</p>
 </div>
@@ -42,12 +42,12 @@ const Profile = () => {
 
 <div className='profile-card'  data-aos="zoom-out">
     <div  className='photo-div'>
-<img className="profile-photo" src='./Images/team/nehapatil.jpg'></img>
+<img className="profile-photo" src='./Images/team/pratiksha.jpeg'></img>
 </div>
 <div className='total-info'>
 <div className="photo-info-div">
-<a href='https://www.linkedin.com/in/neha-patil-01437a228'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
-<p className='name'>Neha Patil</p>
+<a href='https://www.linkedin.com/in/shashank-bhosagi-8b9432206/'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+<p className='name'>Pratiksha Patil</p>
 </div>
 <p className='post'>Secretary</p>
 </div>
@@ -55,73 +55,161 @@ const Profile = () => {
 
 <div className='profile-card'  data-aos="zoom-out">
     <div className='photo-div'>
-<img className="profile-photo" src='./Images/team/anuradhapartudkar.jpg'></img>
+<img className="profile-photo" src='./Images/team/aryanchipkar.png'></img>
 </div>
 <div className='total-info'>
 <div className="photo-info-div">
-<a href='https://bit.ly/linkedinanuradhapartudkar'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
-<p className='name'>Anuradha Partudkar</p>
-</div>
-<p className='post'>Social Media Head</p>
-</div>
-</div>
-
-<div className='profile-card'  data-aos="zoom-out">
-    <div className='photo-div'>
-<img className="profile-photo" src='./Images/team/vasudevsurwase.jpeg'></img>
-</div>
-<div className='total-info'>
-<div className="photo-info-div">
-<a href='https://www.linkedin.com/in/vasudev-surwase-645a2b213'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
-<p className='name'>Vasudev Surwase</p>
-</div>
-<p className='post'>Web Team</p>
-</div>
-</div>
-
-
-<div className='profile-card'  data-aos="zoom-out">
-    <div className='photo-div'>
-<img className="profile-photo" src='./Images/team/sahilkandhare.jpg'></img>
-</div>
-<div className='total-info'>
-<div className="photo-info-div">
-
-<a href='https://www.linkedin.com/in/sahil-kandhare-661b99226
-'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
-<p className='name'>Sahil Kandhare</p>
+<a href='https://www.linkedin.com/in/aaryan-chipkar-667a95207'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+<p className='name'>Aryan Chipkar</p>
 </div>
 <p className='post'>Treasurer</p>
 </div>
 </div>
 
 <div className='profile-card'  data-aos="zoom-out">
-           <div className='photo-div'>
-       <img className="profile-photo" src='./Images/team/pratiksha.jpeg'></img>
-       </div>
-       <div className='total-info'>
-       <div className="photo-info-div">
-       <a href='https://www.linkedin.com/mwlite/in/pratiksha-patil-7b5385209'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
-       <p className='name'>Pratiksha Patil</p>
-       </div>
-       <p className='post'>Documentation Head</p>
-       </div>
-       </div>
+    <div className='photo-div'>
+<img className="profile-photo" src='./Images/team/shubhamasbe.jpeg'></img>
+</div>
+<div className='total-info'>
+<div className="photo-info-div">
+<a href='https://www.linkedin.com/in/shubham-asbe-346153199/'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+<p className='name'>Shubham Asbe</p>
+</div>
+<p className='post'>Support Team</p>
+</div>
+</div>
 
+<div className='profile-card'  data-aos="zoom-out">
+    <div className='photo-div'>
+<img className="profile-photo" src='./Images/team/abhishekbhonde.jpg'></img>
+</div>
+<div className='total-info'>
+<div className="photo-info-div">
+<a href='https://www.linkedin.com/in/abhishek-bhonde-ba501a22a/'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+<p className='name'>Abhishek Bhonde </p>
+</div>
+<p className='post'>Web Team Head</p>
+</div>
+</div>
 
 
 <div className='profile-card'  data-aos="zoom-out">
     <div className='photo-div'>
-<img className="profile-photo" src='./Images/team/saurabhmohole.png'></img>
+<img className="profile-photo" src='./Images/team/vaibhavikulkarni.jpg'></img>
 </div>
 <div className='total-info'>
 <div className="photo-info-div">
-<a href='https://www.linkedin.com/in/saurabh-mohole-331169204/'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
-<p className='name'>Saurabh Mohole</p>
+<a href='https://www.linkedin.com/in/vaibhavikulkarni25/'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+<p className='name'>Vaibhavi Kulkarni </p>
 </div>
-<p className='post'>Co-Treasurer</p>
+<p className='post'>Documentation Team Head</p>
 </div>
 </div>
+
+<div className='profile-card'  data-aos="zoom-out">
+    <div className='photo-div'>
+<img className="profile-photo" src='https://media.licdn.com/dms/image/D4E03AQEsdYalxzWdTg/profile-displayphoto-shrink_400_400/0/1665230888211?e=1699488000&v=beta&t=fWBzP3Q6Jifaa5OhBvb-qAeWdC3nLnY0nO4hgLzoOYs'></img>
+</div>
+<div className='total-info'>
+<div className="photo-info-div">
+<a href='https://www.linkedin.com/in/pavan-kulkarni-77507b253/'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+<p className='name'>Pawan Kulkarni</p>
+</div>
+<p className='post'>Social Media Team Head</p>
+</div>
+</div>
+
+<div className='profile-card'  data-aos="zoom-out">
+    <div className='photo-div'>
+<img className="profile-photo" src='./Images/team/sumitkaranjkar.JPG'></img>
+</div>
+<div className='total-info'>
+<div className="photo-info-div">
+<a href='https://www.linkedin.com/in/sumit-karanjkar-6285a0229/'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+<p className='name'>Sumit Karanjkar</p>
+</div>
+<p className='post'>Web Team Co-Head</p>
+</div>
+</div>
+
+<div className='profile-card'  data-aos="zoom-out">
+    <div className='photo-div'>
+<img className="profile-photo" src='./Images/team/dipalibhalerao.jpeg'></img>
+</div>
+<div className='total-info'>
+<div className="photo-info-div">
+<a href='https://www.linkedin.com/in/dipali-bhalerao-777b71239/'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+<p className='name'>Dipali Bhalerao</p>
+</div>
+<p className='post'>Desgin Team Head</p>
+</div>
+</div>
+
+<div className='profile-card'  data-aos="zoom-out">
+           <div className='photo-div'>
+       <img className="profile-photo" src='./Images/team/DheemahiGupta.jpeg'></img>
+       </div>
+       <div className='total-info'>
+       <div className="photo-info-div">
+       <a href='https://www.linkedin.com/in/dheemahi-g-89774424b/'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+       <p className='name'>Dheemahi Gupta</p>
+       </div>
+       <p className='post'>Web Team</p>
+       </div>
+       </div>
+
+       <div className='profile-card'  data-aos="zoom-out">
+           <div className='photo-div'>
+       <img className="profile-photo" src='./Images/team/AnandDhadiwal.jpeg'></img>
+       </div>
+       <div className='total-info'>
+       <div className="photo-info-div">
+       <a href='https://www.linkedin.com/in/anand-dhadiwal-027076231/'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+       <p className='name'>Anand Dhadiwal</p>
+       </div>
+       <p className='post'>Design Team</p>
+       </div>
+       </div>
+
+       <div className='profile-card'  data-aos="zoom-out">
+           <div className='photo-div'>
+       <img className="profile-photo" src='./Images/team/PratikKatkar.jpeg'></img>
+       </div>
+       <div className='total-info'>
+       <div className="photo-info-div">
+       <a href='https://www.linkedin.com/in/pratik-katkar-74609a24a/'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+       <p className='name'>Pratik Katkar</p>
+       </div>
+       <p className='post'>Documentation Team</p>
+       </div>
+       </div>
+
+
+       <div className='profile-card'  data-aos="zoom-out">
+           <div className='photo-div'>
+       <img className="profile-photo" src='./Images/team/YashLondhe.jpeg'></img>
+       </div>
+       <div className='total-info'>
+       <div className="photo-info-div">
+       <a href='https://www.linkedin.com/in/yashlondhe-/'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+       <p className='name'>Yash Londhe</p>
+       </div>
+       <p className='post'>Social Media Team</p>
+       </div>
+       </div>
+
+       <div className='profile-card'  data-aos="zoom-out">
+           <div className='photo-div'>
+       <img className="profile-photo" src='./Images/team/artik.png'></img>
+       </div>
+       <div className='total-info'>
+       <div className="photo-info-div">
+       <a href='https://www.linkedin.com/in/arti-kalhapure-93869424b/'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
+       <p className='name'>Arti Kalahapure</p>
+       </div>
+       <p className='post'>Documentation Team</p>
+       </div>
+       </div>
 
 <div className='profile-card'  data-aos="zoom-out">
            <div className='photo-div'>
@@ -138,18 +226,7 @@ const Profile = () => {
 
 
 
-<div className='profile-card'  data-aos="zoom-out">
-    <div className='photo-div'>
-<img className="profile-photo" src='./Images/team/aryanchipkar.png'></img>
-</div>
-<div className='total-info'>
-<div className="photo-info-div">
-<a href='https://www.linkedin.com/in/aaryan-chipkar-667a95207'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
-<p className='name'>Aaryan Chipkar</p>
-</div>
-<p className='post'>Publicity Head</p>
-</div>
-</div>
+
 
 
 
@@ -163,19 +240,6 @@ const Profile = () => {
        <p className='name'>Jay Shinde</p>
        </div>
        <p className='post'>Web Team</p>
-       </div>
-       </div>
-
-       <div className='profile-card'  data-aos="zoom-out">
-           <div className='photo-div'>
-       <img className="profile-photo" src='./Images/team/shashankbhosagi.jpeg'></img>
-       </div>
-       <div className='total-info'>
-       <div className="photo-info-div">
-       <a href='https://www.linkedin.com/in/shashank-bhosagi-8b9432206'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:25,color:"cornflowerblue"}}></ion-icon></a>
-       <p className='name'>Shashank Bhosagi</p>
-       </div>
-       <p className='post'>Social Media Team</p>
        </div>
        </div>
 
