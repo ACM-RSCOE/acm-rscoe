@@ -25,7 +25,7 @@ const Events = () => {
             <p style={{ paddingBottom: 16 }}>
             TechExplore- Explored various technologies through the Competition
             </p>
-            <p>Timeline - 14th October 2023</p>
+            <p>Timeline - 15th September 2023</p>
             <br />
             <p>Venue- Computer Department</p>
             <div className="buttons">
