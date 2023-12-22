@@ -12,12 +12,126 @@ const Events = () => {
   }, [])
   return (
     <>
-      <div className="big-upcoming-div">
+
+<div className="big-upcoming-div">
         <p className="upcoming" data-aos="zoom-out">
           <ion-icon style={{ paddingTop: 30 }} name="time"></ion-icon>Recent
           Events
         </p>
 
+        <div className="upcoming-div" id="reverse" data-aos="zoom-out">
+          <div className="event-info" data-aos="zoom-out">
+            <b>About Event :</b>
+            <p style={{ paddingBottom: 16 }}>
+            TechExplore- Explored various technologies through the Competition
+            </p>
+            <p>Timeline - 14th October 2023</p>
+            <br />
+            <p>Venue- Computer Department</p>
+            <div className="buttons">
+              <a target="_blank" href="/techexplore">
+                <button className="btninfo" id="ecofriendlybtn">
+                  <ion-icon
+                    style={{ padding: 0, fontSize: 24 }}
+                    name="arrow-forward-circle"
+                  ></ion-icon>
+                    MORE INFO
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="event-div">
+            <div className="event-img-div" id="ecofriendly" data-aos="zoom-out">
+              <p>
+                TechExplore Competition
+              </p>
+            </div>
+          </div>
+        </div>
+        
+
+        <div className="upcoming-div" data-aos="zoom-out">
+          <div className="event-div">
+            <div id="willpower" data-aos="zoom-out">
+              <img
+                className="will"
+                id="uipath"
+                src="./Images/pradyot.png"
+                alt="hackathon"
+              ></img>
+            </div>
+          </div>
+          
+          
+          
+          <div className="event-info" data-aos="zoom-out">
+            <b>About Event :</b>
+            <p style={{ paddingBottom: 16 }}>
+              
+              <br />
+              <br />
+              PRADYOT - The Ray Of Light
+              A creative Event on the occasion of Engineer's Day
+            </p>
+            <p>
+              <b>Date of Event</b> - 26th and 27th September 2023
+            </p>
+
+            <p>
+              <b>Venue</b> - Computer Dept RSCOE
+            </p>
+            <div className="buttons">
+              {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
+              <a target="_blank" rel='noreferrer' href="/pradyotsummary">
+                <button className="btninfo" id="overseasbtn">
+                  <ion-icon
+                    style={{ padding: 0, fontSize: 24 }}
+                    name="arrow-forward-circle"
+                  ></ion-icon>
+                  MORE INFO
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+        
+
+        <div className="upcoming-div" id="reverse" data-aos="zoom-out">
+          <div className="event-info" data-aos="zoom-out">
+            <b>About Event :</b>
+            <p style={{ paddingBottom: 16 }}>
+            Ecofriendly Ganapati Decoration Competition 2023
+            The submission was open for 5 days
+            </p>
+            <p>Timeline - 19th to 23rd September 2023</p>
+            <br />
+            <p>Winner - Pratham Chauvan</p>
+            <div className="buttons">
+              <a target="_blank" href="/ganapatisummary">
+                <button className="btninfo" id="ecofriendlybtn">
+                  <ion-icon
+                    style={{ padding: 0, fontSize: 24 }}
+                    name="arrow-forward-circle"
+                  ></ion-icon>
+                  WINNER'S DECORATION
+                </button>
+              </a>
+            </div>
+          </div>
+          <div className="event-div">
+            <div className="event-img-div" id="ecofriendly" data-aos="zoom-out">
+              <p>
+                Eco-friendly <br />
+                Ganapati Decoration <br /> Competition
+              </p>
+            </div>
+          </div>
+        </div>
+        
+    
         {/* ==================================================================================
                               UI PATH EVENT
         ================================================================================== */}
@@ -32,7 +146,9 @@ const Events = () => {
               ></img>
             </div>
           </div>
-
+          
+          
+          
           <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
@@ -50,7 +166,7 @@ const Events = () => {
             </p>
             <div className="buttons">
               {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
-              <a target="_blank" rel='noreferrer' href="https://drive.google.com/drive/folders/1I4RkMFTJ4Ao0azt8spKUU8MRgZvRaXve">
+              <a target="_blank" rel='noreferrer' href="/uipath">
                 <button className="btninfo" id="overseasbtn">
                   <ion-icon
                     style={{ padding: 0, fontSize: 24 }}
@@ -83,7 +199,7 @@ const Events = () => {
             </p>
             <div className="buttons">
               {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
-              <a target="_blank" rel='noreferrer' href="./Images/logica.jpeg">
+              <a target="_blank" rel='noreferrer' href="logicasummary">
                 <button className="btninfo" id="overseasbtn">
                   <ion-icon
                     style={{ padding: 0, fontSize: 24 }}
@@ -459,7 +575,7 @@ const Events = () => {
             <p>Winner : Ganesh Masute</p>
             <div className="buttons">
               {/* <a target="_blank" href="https://forms.gle/N8YCTp1SFTdSc6mR8"><button className='register' id='poetry-btn'>REGISTER</button></a> */}
-              <a target="_blank" href="./Images/poem.pdf">
+              <a target="_blank" href="/poetry">
                 <button className="btninfo" id="poetry-btn">
                   <ion-icon
                     style={{ padding: 0, fontSize: 24 }}
