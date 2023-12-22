@@ -8,7 +8,7 @@ const Summary = () => {
       <>
     <div className='big-div'>
 
-        <p className='slider-header'>Glimpses of <span style={{color:"#1993ff"}}>Logica 2022</span></p>
+        <p className='slider-header'>Glimpses of <span style={{color:"#1993ff"}}>Pradyot 2023</span></p>
        
         <div id='main-carousel' class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay":2000,"draggable":true }'>
         <img className="carousel-cell" alt='carousel-img' src='./Images/Pradyot/Pradyot1.jpg'></img>
