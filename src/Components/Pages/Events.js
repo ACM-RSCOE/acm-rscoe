@@ -1,19 +1,18 @@
-import React from 'react'
-import { useEffect } from 'react'
+import React from "react";
+import { useEffect } from "react";
 
-import Aos from 'aos'
-import 'aos/dist/aos.css'
-import Navbar from '../Navbar'
-import Footer from '../Footer'
-import { Link } from 'react-router-dom'
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+import { Link } from "react-router-dom";
 const Events = () => {
   useEffect(() => {
-    Aos.init({ duration: 1000 })
-  }, [])
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <>
-
-<div className="big-upcoming-div">
+      <div className="big-upcoming-div">
         <p className="upcoming" data-aos="zoom-out">
           <ion-icon style={{ paddingTop: 30 }} name="time"></ion-icon>Recent
           Events
@@ -23,7 +22,7 @@ const Events = () => {
           <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
-            TechExplore- Explored various technologies through the Competition
+              TechExplore- Explored various technologies through the Competition
             </p>
             <p>Timeline - 15th September 2023</p>
             <br />
@@ -35,20 +34,17 @@ const Events = () => {
                     style={{ padding: 0, fontSize: 24 }}
                     name="arrow-forward-circle"
                   ></ion-icon>
-                    MORE INFO
+                  MORE INFO
                 </button>
               </a>
             </div>
           </div>
           <div className="event-div">
             <div className="event-img-div" id="ecofriendly" data-aos="zoom-out">
-              <p>
-                TechExplore Competition
-              </p>
+              <p>TechExplore Competition</p>
             </div>
           </div>
         </div>
-        
 
         <div className="upcoming-div" data-aos="zoom-out">
           <div className="event-div">
@@ -61,17 +57,14 @@ const Events = () => {
               ></img>
             </div>
           </div>
-          
-          
-          
+
           <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
-              
               <br />
               <br />
-              PRADYOT - The Ray Of Light
-              A creative Event on the occasion of Engineer's Day
+              PRADYOT - The Ray Of Light A creative Event on the occasion of
+              Engineer's Day
             </p>
             <p>
               <b>Date of Event</b> - 26th and 27th September 2023
@@ -82,7 +75,7 @@ const Events = () => {
             </p>
             <div className="buttons">
               {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
-              <a target="_blank" rel='noreferrer' href="/pradyotsummary">
+              <a target="_blank" rel="noreferrer" href="/pradyotsummary">
                 <button className="btninfo" id="overseasbtn">
                   <ion-icon
                     style={{ padding: 0, fontSize: 24 }}
@@ -95,16 +88,12 @@ const Events = () => {
           </div>
         </div>
 
-
-
-        
-
         <div className="upcoming-div" id="reverse" data-aos="zoom-out">
           <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
-            Ecofriendly Ganapati Decoration Competition 2023
-            The submission was open for 5 days
+              Ecofriendly Ganapati Decoration Competition 2023 The submission
+              was open for 5 days
             </p>
             <p>Timeline - 19th to 23rd September 2023</p>
             <br />
@@ -130,8 +119,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-        
-    
+
         {/* ==================================================================================
                               UI PATH EVENT
         ================================================================================== */}
@@ -146,16 +134,15 @@ const Events = () => {
               ></img>
             </div>
           </div>
-          
-          
-          
+
           <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
             <p style={{ paddingBottom: 16 }}>
               UI path hands-on training
               <br />
               <br />
-              Taught first year students about robotic process automation using UIpath.
+              Taught first year students about robotic process automation using
+              UIpath.
             </p>
             <p>
               <b>Date of Event</b> - 28th April 2023
@@ -166,7 +153,7 @@ const Events = () => {
             </p>
             <div className="buttons">
               {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
-              <a target="_blank" rel='noreferrer' href="/uipath">
+              <a target="_blank" rel="noreferrer" href="/uipath">
                 <button className="btninfo" id="overseasbtn">
                   <ion-icon
                     style={{ padding: 0, fontSize: 24 }}
@@ -178,9 +165,6 @@ const Events = () => {
             </div>
           </div>
         </div>
-
-
-
 
         <div className="upcoming-div" id="reverse" data-aos="zoom-out">
           <div className="event-info" data-aos="zoom-out">
@@ -199,7 +183,7 @@ const Events = () => {
             </p>
             <div className="buttons">
               {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
-              <a target="_blank" rel='noreferrer' href="logicasummary">
+              <a target="_blank" rel="noreferrer" href="logicasummary">
                 <button className="btninfo" id="overseasbtn">
                   <ion-icon
                     style={{ padding: 0, fontSize: 24 }}
@@ -250,7 +234,11 @@ const Events = () => {
             </p>
             <div className="buttons">
               {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
-              <a target="_blank" rel='noreferrer' href="https://trinity-2023.vercel.app/">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://trinity-2023.vercel.app/"
+              >
                 <button className="btninfo" id="overseasbtn">
                   <ion-icon
                     style={{ padding: 0, fontSize: 24 }}
@@ -336,7 +324,7 @@ const Events = () => {
             </p>
             <div className="buttons">
               {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
-              <a target="_blank" href="./Images/willflyer.jpeg">
+              <a target="_blank" href="/willpower">
                 <button className="btninfo" id="overseasbtn">
                   <ion-icon
                     style={{ padding: 0, fontSize: 24 }}
@@ -620,7 +608,7 @@ const Events = () => {
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default Events
+export default Events;
