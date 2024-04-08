@@ -11,7 +11,7 @@ const Team = () => {
   ],[])
   return (
       <>
-    <div className='teamheader'><p>The Team</p>
+    <div className='teamheader'><p>Achievement</p>
     <br/>
     <div className="photo">
             <img className="group-photo" src="./Images/team/teamphoto.jpeg" alt=""/>

@@ -126,7 +126,7 @@ header a{
   padding: 3rem;
 }
 .footer-logo{
-  width:14rem
+  width:14rem;
 }
 ion-icon{
   padding: 1rem 0.5rem 0 0;
@@ -529,7 +529,7 @@ cursor: pointer;
   align-items: center;
   flex-direction: column;
   font-size: 2.7rem;
-  background: linear-gradient(180deg, #0066ff 50%, #fdfdfd 50%);
+  background: linear-gradient(180deg, #6699ff 50%, #fdfdfd 50%);
   animation: slideUp .8s ease forwards 0.2s;
 }
 .staff-div{

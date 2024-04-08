@@ -1,81 +1,52 @@
-import React from 'react'
-import { useEffect } from 'react';
+import React from "react";
+import { useEffect } from "react";
 //import "../App.css"
-import Aos from 'aos';
-import "aos/dist/aos.css"
+import Aos from "aos";
+import "aos/dist/aos.css";
+import ProfileCard from "./../ProfileCard";
 const WebTeam = () => {
-    useEffect(() => {
-        Aos.init({duration:2000})
-   },[])
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div>
-        
-        <div className='teamheader-web'><p>Web Team</p>
-        <h6 className='p'>Technology passionates, who grind to keep the ACM website updated and running smoothly equipped with Modern Technologies and talent like great working standards and team work.
-</h6></div>
-<div className='profile-card-div'>
-<div className='profile-card-web'  data-aos="zoom-out">
-           <div className='photo-div'>
-       <img className="profile-photo" src='./Images/team/abhishekdhanke.png'></img>
-       </div>
-       <div className='total-info'>
-       <div className="photo-info-div">
-       <a href='https://www.linkedin.com/in/abhishek-dhanke-226354216/'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
-       <p className='name'>Abhishek Dhanke</p>
-       </div>
-       </div>
-       </div>
-
-       <div className='profile-card-web'  data-aos="zoom-out">
-    <div className='photo-div'>
-<img className="profile-photo" src='./Images/utkarsh.png'></img>
-</div>
-<div className='total-info'>
-<div className="photo-info-div">
-<a href='https://www.linkedin.com/in/utkarsh-jaulkar'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
-<p className='name'>Utkarsh Jaulkar</p>
-</div>
-</div>
-</div>
-
-<div className='profile-card-web'  data-aos="zoom-out">
-    <div className='photo-div'>
-<img className="profile-photo" src='./Images/team/vasudevsurwase.jpeg'></img>
-</div>
-<div className='total-info'>
-<div className="photo-info-div">
-<a href='https://www.linkedin.com/in/vasudev-surwase-645a2b213'><ion-icon name="logo-linkedin"  style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
-<p className='name'>Vasudev Surwase</p>
-</div>
-</div>
-</div>
-       <div className='profile-card-web'  data-aos="zoom-out">
-           <div className='photo-div'>
-       <img className="profile-photo" src='./Images/team/jayshinde.jpg'></img>
-       </div>
-       <div className='total-info'>
-       <div className="photo-info-div">
-       <a href='https://www.linkedin.com/in/jay-shinde-5a827317b'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a>
-       <p className='name'>Jay Shinde</p>
-       </div>
-       </div>
-       </div>
-
-       <div className='profile-card-web'>
-           <div className='photo-div'>
-       <img className="profile-photo" src='./Images/team/rushikeshsarode.jpg'></img>
-       </div>
-       <div className='total-info'>
-       <div className="photo-info-div">
-      <a href='https://www.linkedin.com/in/rushikesh-sarode-57b514226/'><ion-icon name="logo-linkedin" style={{padding:0,fontSize:30,color:"cornflowerblue"}}></ion-icon></a> 
-       <p className='name'>Rushikesh Sarode</p>
-       </div>
-       </div>
-       </div>
+      <div className="teamheader-web">
+        <p>Web Team</p>
+        <h6 className="p">
+          Technology passionates, who grind to keep the ACM website updated and
+          running smoothly equipped with Modern Technologies and talent like
+          great working standards and team work.
+        </h6>
+      </div>
+      <div className="profile-card-div">
+        <ProfileCard 
+            imageLink={"./Images/team/abhishekbhonde.jpg"}
+            linkedinLink={"https://www.linkedin.com/in/abhishek-bhonde-ba501a22a/"}
+            name={"Abhishek Bhonde"}
+        />
+        <ProfileCard 
+            imageLink={"Images/team/sumitkaranjkar.JPG"}
+            linkedinLink={"https://www.linkedin.com/in/sumit-karanjkar-6285a0229/"}
+            name={"Sumit Karanjkar"}
+        />
+        <ProfileCard 
+            imageLink={"./Images/team/abhishekdhanke.png"}
+            linkedinLink={"https://www.linkedin.com/in/abhishek-dhanke-226354216/"}
+            name={"Abhishek Dhanke"}
+        />
+        <ProfileCard 
+            imageLink={"./Images/team/sahilkandhare.jpg"}
+            linkedinLink={"https://www.linkedin.com/in/sahilk027/"}
+            name={"Sahil Kandhare"}
+        />
+        <ProfileCard 
+            imageLink={"./Images/utkarsh.png"}
+            linkedinLink={"https://www.linkedin.com/in/utkarsh-jaulkar"}
+            name={"Utkarsh Jaulkar"}
+        />
+      </div>
     </div>
-    </div>
-    
-  )
-}
+  );
+};
 
-export default WebTeam
+export default WebTeam;
