@@ -14,6 +14,7 @@ import CDevent from "./Components/childrensDay2022";
 import TrinitySummary from "./Components/TrinitySummary";
 import GanapatiSummary from "./Components/GanapatiSummary";
 import LogicaSummary from "./Components/LogicaSummary";
+import Logica3 from "./Components/Logica3";
 import UiSummary from "./Components/UiSummary";
 import TechExplore from "./Components/TechExplore";
 import WillPower from "./Components/willPowerABCs";
@@ -36,6 +37,7 @@ function App() {
           <Route path="/childrensday" element={<CDevent />}></Route>
           <Route path="/trinitysummary" element={<TrinitySummary />}></Route>
           <Route path="/logicasummary" element={<LogicaSummary />}></Route>
+          <Route path="/logica3" element={<Logica3 />}></Route>
           <Route path="/uipath" element={<UiSummary />}></Route>
           <Route path="/techexplore" element={<TechExplore />}></Route>
           <Route path="/willpower" element={<WillPower />}></Route>
