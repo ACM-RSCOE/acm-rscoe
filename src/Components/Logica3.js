@@ -8,13 +8,24 @@ const Summary = () => {
       <>
     <div className='big-div'>
 
-        <p className='slider-header'>Glimpses of <span style={{color:"#1993ff"}}>Ganapati Decoration</span></p>
+        <p className='slider-header'>Glimpses of <span style={{color:"#1993ff"}}>Logica 2024</span></p>
        
         <div id='main-carousel' class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "autoPlay":2000,"draggable":true }'>
-        <img className="carousel-cell" alt='carousel-img' src='./Images/Ganapati/Ganapati1.jpg'></img>
-        <img className="carousel-cell" alt='carousel-img' src='./Images/Ganapati/Ganapati.jpg'></img>
+        <img className="carousel-cell" alt='carousel-img' src='./Images/Logica3.0/log1.jpg'></img>
+        <img className="carousel-cell" alt='carousel-img' src='./Images/Logica3.0/log2.jpg'></img>
 
+        <img className="carousel-cell" alt='carousel-img' src='./Images/Logica3.0/log3.jpg'></img>
+
+        <img className="carousel-cell" alt='carousel-img' src='./Images/Logica3.0/log4.jpg'></img>
+
+        <img className="carousel-cell" alt='carousel-img' src='./Images/Logica3.0/log5.jpg'></img>
         
+
+
+
+       
+
+            
         </div>
            
           
@@ -25,19 +36,35 @@ const Summary = () => {
         <div className='summary-div'>
            
             <div className='sum'>
-
+                <p className='sub-head'><box-icon name='right-arrow' type='solid' color='#1993ff' ></box-icon>States Participated</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Maharashtra</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Tamil Nadu</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Karnataka</p>
 
                 <p className='sub-head'><box-icon name='right-arrow' type='solid' color='#1993ff' ></box-icon>Departments Participated</p>
                 <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>CSE</p>
                 <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>IT</p>
-
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Mech</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>EnTC</p>
             </div>
            
            
                
                
 
-        
+            <div className='sum'>
+                <p className='sub-head'><box-icon name='right-arrow' type='solid' color='#1993ff' ></box-icon>Domains Involved</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Artificial Intelligence</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Blockchain</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Cybersecurity</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Embedded Systems</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Data Science</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Deep Learning</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Machine Learning</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Internet of Things</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Web Development</p>
+                <p className='pt'><box-icon name='right-arrow-alt' type='solid' color='#1993ff' ></box-icon>Android Development</p>
+            </div>
         </div>
     </div>
 

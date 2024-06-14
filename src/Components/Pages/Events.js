@@ -12,11 +12,6 @@ const Events = () => {
   }, []);
   return (
     <>
-
-
-       
- 
-    
       <div className="big-upcoming-div">
         <p className="upcoming" data-aos="zoom-out">
           <ion-icon style={{ paddingTop: 30 }} name="time"></ion-icon>Recent
@@ -29,7 +24,7 @@ const Events = () => {
               <img
                 className="will"
                 id="uipath"
-                src="./Images/pradyot.png"
+                src="./Images/logica3.png"
                 alt="hackathon"
               ></img>
             </div>
@@ -52,7 +47,7 @@ const Events = () => {
             </p>
             <div className="buttons">
               {/* <Link to="/summary"><button  onClick="window.scrollTo(0, 0)" className='register'>Event Summary</button></Link> */}
-              <a target="_blank" rel="noreferrer" href="/Logica_Summary">
+              <a target="_blank" rel="noreferrer" href="/Logica3">
                 <button className="btninfo" id="overseasbtn">
                   <ion-icon
                     style={{ padding: 0, fontSize: 24 }}
@@ -134,7 +129,7 @@ const Events = () => {
             </div>
           </div>
         </div>
-//--------------------------------------------------------------------------------------
+{/*--------------------------------------------------------------------------------------*/}
         <div className="upcoming-div" id="reverse" data-aos="zoom-out">
           <div className="event-info" data-aos="zoom-out">
             <b>About Event :</b>
