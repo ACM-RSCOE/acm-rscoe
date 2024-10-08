@@ -13,7 +13,7 @@ const Profile = () => {
     <>
       <div className="profile-card-div">
         <ProfileCard 
-            imageLink={"public/Images/team/Anis.jpg"}
+            imageLink={"Images/team/Anis.jpg"}
             linkedinLink={"https://www.linkedin.com/in/pavan-kulkarni-77507b253/"}
             name={"Anis "}
             post={"Chair"}
