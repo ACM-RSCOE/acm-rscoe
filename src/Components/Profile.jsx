@@ -15,7 +15,7 @@ const Profile = () => {
         <ProfileCard 
             imageLink={"Images/team/Anis.jpg"}
             linkedinLink={"https://www.linkedin.com/in/pavan-kulkarni-77507b253/"}
-            name={"Anis "}
+            name={"Anis"}
             post={"Chair"}
         />
         <ProfileCard 
