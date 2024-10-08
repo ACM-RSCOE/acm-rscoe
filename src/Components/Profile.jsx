@@ -13,9 +13,9 @@ const Profile = () => {
     <>
       <div className="profile-card-div">
         <ProfileCard 
-            imageLink={"https://media.licdn.com/dms/image/D4E03AQEsdYalxzWdTg/profile-displayphoto-shrink_400_400/0/1665230889757?e=1718236800&v=beta&t=PAIREvghpuuG__oJKZZUeaFyK6EAX0tclAjGH8l98tw"}
+            imageLink={"public/Images/team/Anis.jpg"}
             linkedinLink={"https://www.linkedin.com/in/pavan-kulkarni-77507b253/"}
-            name={"Pavan Kulkarni"}
+            name={"Anis "}
             post={"Chair"}
         />
         <ProfileCard 
